@@ -55,7 +55,7 @@ public:
         const wxSize &size = wxDefaultSize, long style = 0);
 
 private:
-    virtual wxScatterPlot& GetChart();
+    wxScatterPlot& GetChart() override;
 
 private:
     wxScatterPlot m_scatterPlot;

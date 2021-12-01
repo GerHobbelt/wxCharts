@@ -42,7 +42,7 @@ public:
         const wxSize &size = wxDefaultSize, long style = 0);
 
 private:
-    virtual wxDoughnutChart& GetChart();
+    wxDoughnutChart& GetChart() override;
     void OnUpdate(const std::map<wxString,wxChartSliceData> &data) override;
 
 private:

@@ -66,7 +66,7 @@ public:
     wxPolarAreaChart(const wxPolarAreaChartData &data,  wxSharedPtr<wxPolarAreaChartOptions> &options,
         const wxSize &size);
 
-    virtual const wxChartCommonOptions& GetCommonOptions() const;
+    const wxChartCommonOptions& GetCommonOptions() const override;
 
 private:
     void Add(const wxChartSliceData &slice, const wxSize &size);
@@ -75,10 +75,10 @@ private:
     static wxDouble GetMinValue(const wxVector<wxChartSliceData> &slices);
     static wxDouble GetMaxValue(const wxVector<wxChartSliceData> &slices);
 
-    virtual void DoSetSize(const wxSize &size);
-    virtual void DoFit();
-    virtual void DoDraw(wxGraphicsContext &gc, bool suppressTooltips);
-    virtual wxSharedPtr<wxVector<const wxChartsElement*>> GetActiveElements(const wxPoint &point);
+    void DoSetSize(const wxSize &size) override;
+    void DoFit() override;
+    void DoDraw(wxGraphicsContext &gc, bool suppressTooltips) override;
+    wxSharedPtr<wxVector<const wxChartsElement*>> GetActiveElements(const wxPoint &point) override;
 
 private:
     class SliceArc : public wxChartsArc

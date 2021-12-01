@@ -36,13 +36,13 @@ public:
     wxTimeSeriesChart(wxSharedPtr<wxTimeSeriesChartOptions> &options,
         const wxSize &size);
 
-    virtual const wxChartCommonOptions& GetCommonOptions() const;
+    const wxChartCommonOptions& GetCommonOptions() const override;
 
 private:
-    virtual void DoSetSize(const wxSize &size);
-    virtual void DoFit();
-    virtual void DoDraw(wxGraphicsContext &gc, bool suppressTooltips);
-    virtual wxSharedPtr<wxVector<const wxChartsElement*>> GetActiveElements(const wxPoint &point);
+    void DoSetSize(const wxSize &size) override;
+    void DoFit() override;
+    void DoDraw(wxGraphicsContext &gc, bool suppressTooltips) override;
+    wxSharedPtr<wxVector<const wxChartsElement*>> GetActiveElements(const wxPoint &point) override;
 
 private:
     wxSharedPtr<wxTimeSeriesChartOptions> m_options;

@@ -38,7 +38,7 @@ public:
     wxDoughnutChart(wxPieChartData::ptr data, wxSharedPtr<wxDoughnutChartOptions> &options,
         const wxSize &size);
 
-    virtual const wxChartCommonOptions& GetCommonOptions() const;
+    const wxChartCommonOptions& GetCommonOptions() const override;
 
 private:
     const wxDoughnutAndPieChartOptionsBase& GetOptions() const override;

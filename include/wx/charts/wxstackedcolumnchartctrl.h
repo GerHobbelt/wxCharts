@@ -63,7 +63,7 @@ public:
         long style = 0);
 
 private:
-    virtual wxStackedColumnChart& GetChart();
+    wxStackedColumnChart& GetChart() override;
 
 private:
     wxStackedColumnChart m_stackedColumnChart;

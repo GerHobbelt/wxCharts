@@ -42,7 +42,7 @@ public:
         const wxSize &size = wxDefaultSize, long style = 0);
 
 private:
-    virtual wxTimeSeriesChart& GetChart();
+    wxTimeSeriesChart& GetChart() override;
 
 private:
     wxTimeSeriesChart m_timeSeriesChart;

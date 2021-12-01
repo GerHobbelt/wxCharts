@@ -50,16 +50,16 @@ class wxStackedColumnChart : public wxChart
 public:
     wxStackedColumnChart(wxChartsCategoricalData::ptr &data, const wxSize &size);
 
-    virtual const wxChartCommonOptions& GetCommonOptions() const;
+    const wxChartCommonOptions& GetCommonOptions() const override;
 
 private:
     static wxDouble GetCumulativeMinValue(const wxVector<wxChartsDoubleDataset::ptr>& datasets);
     static wxDouble GetCumulativeMaxValue(const wxVector<wxChartsDoubleDataset::ptr>& datasets);
 
-    virtual void DoSetSize(const wxSize &size);
-    virtual void DoFit();
-    virtual void DoDraw(wxGraphicsContext &gc, bool suppressTooltips);
-    virtual wxSharedPtr<wxVector<const wxChartsElement*> > GetActiveElements(const wxPoint &point);
+    void DoSetSize(const wxSize &size) override;
+    void DoFit() override;
+    void DoDraw(wxGraphicsContext &gc, bool suppressTooltips) override;
+    wxSharedPtr<wxVector<const wxChartsElement*> > GetActiveElements(const wxPoint &point) override;
 
 private:
     class Column : public wxChartsRectangle
@@ -74,7 +74,7 @@ private:
             const wxChartsBrushOptions &brushOptions,
             int borders);
 
-        virtual bool HitTest(const wxPoint &point) const;
+        bool HitTest(const wxPoint &point) const override;
 
         wxDouble GetValue() const;
 

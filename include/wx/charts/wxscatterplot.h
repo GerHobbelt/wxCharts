@@ -79,7 +79,7 @@ public:
     wxScatterPlot(const wxScatterPlotData &data, wxSharedPtr<wxScatterPlotOptions> &options,
         const wxSize &size);
 
-    virtual const wxChartCommonOptions& GetCommonOptions() const;
+    const wxChartCommonOptions& GetCommonOptions() const override;
 
 private:
     void Initialize(const wxScatterPlotData &data);
@@ -88,10 +88,10 @@ private:
     static wxDouble GetMinYValue(const wxVector<wxScatterPlotDataset::ptr>& datasets);
     static wxDouble GetMaxYValue(const wxVector<wxScatterPlotDataset::ptr>& datasets);
 
-    virtual void DoSetSize(const wxSize &size);
-    virtual void DoFit();
-    virtual void DoDraw(wxGraphicsContext &gc, bool suppressTooltips);
-    virtual wxSharedPtr<wxVector<const wxChartsElement*>> GetActiveElements(const wxPoint &point);
+    void DoSetSize(const wxSize &size) override;
+    void DoFit() override;
+    void DoDraw(wxGraphicsContext &gc, bool suppressTooltips) override;
+    wxSharedPtr<wxVector<const wxChartsElement*>> GetActiveElements(const wxPoint &point) override;
 
 private:
     class Point : public wxChartsPoint
@@ -104,7 +104,7 @@ private:
             wxDouble x, wxDouble y,
             const wxChartsPointOptions &options);
 
-        virtual wxPoint2DDouble GetTooltipPosition() const;
+        wxPoint2DDouble GetTooltipPosition() const override;
 
         wxPoint2DDouble GetValue() const;
 

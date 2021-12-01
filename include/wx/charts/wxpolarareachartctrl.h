@@ -66,7 +66,7 @@ public:
         const wxSize &size = wxDefaultSize, long style = 0);
 
 private:
-    virtual wxPolarAreaChart& GetChart();
+    wxPolarAreaChart& GetChart() override;
 
 private:
     wxPolarAreaChart m_polarAreaChart;

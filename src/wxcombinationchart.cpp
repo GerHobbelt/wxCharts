@@ -20,9 +20,9 @@
     IN THE SOFTWARE.
 */
 
-#include "wxcombinationchart.h"
-#include "wxchartscategoricalaxis.h"
-#include "wxchartsnumericalaxis.h"
+#include "wx/charts/wxcombinationchart.h"
+#include "wx/charts/wxchartscategoricalaxis.h"
+#include "wx/charts/wxchartsnumericalaxis.h"
 
 wxCombinationChart::wxCombinationChart()
 {

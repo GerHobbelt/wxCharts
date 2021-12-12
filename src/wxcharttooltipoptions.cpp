@@ -20,7 +20,7 @@
     IN THE SOFTWARE.
 */
 
-#include "wxcharttooltipoptions.h"
+#include "wx/charts/wxcharttooltipoptions.h"
 
 wxChartTooltipOptions::wxChartTooltipOptions()
     : m_fontFamily(wxFONTFAMILY_SWISS), m_fontSize(14),

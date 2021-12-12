@@ -20,7 +20,7 @@
     IN THE SOFTWARE.
 */
 
-#include "wxhistogramoptions.h"
+#include "wx/charts/wxhistogramoptions.h"
 
 wxHistogramOptions::wxHistogramOptions()
     : m_lineWidth(2)

@@ -20,7 +20,7 @@
     IN THE SOFTWARE.
 */
 
-#include "wxchartspointoptions.h"
+#include "wx/charts/wxchartspointoptions.h"
 
 wxChartsPointOptions::wxChartsPointOptions(unsigned int strokeWidth,
                                            const wxColor &strokeColor,

@@ -22,7 +22,7 @@
 
 /// @file
 
-#include "wxohlcchartctrl.h"
+#include "wx/charts/wxohlcchartctrl.h"
 
 wxOHLCChartCtrl::wxOHLCChartCtrl(wxWindow *parent,
                                  wxWindowID id,

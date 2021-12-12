@@ -22,7 +22,7 @@
 
 /// @file
 
-#include "wxstackedbarchartoptions.h"
+#include "wx/charts/wxstackedbarchartoptions.h"
 
 wxStackedBarChartOptions::wxStackedBarChartOptions()
     : m_gridOptions(

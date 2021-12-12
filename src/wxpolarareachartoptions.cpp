@@ -20,7 +20,7 @@
     IN THE SOFTWARE.
 */
 
-#include "wxpolarareachartoptions.h"
+#include "wx/charts/wxpolarareachartoptions.h"
 
 wxPolarAreaChartOptions::wxPolarAreaChartOptions()
     : m_gridOptions(wxCHARTSRADIALGRIDSTYLE_CIRCULAR),

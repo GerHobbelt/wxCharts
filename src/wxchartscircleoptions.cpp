@@ -20,7 +20,7 @@
     IN THE SOFTWARE.
 */
 
-#include "wxchartscircleoptions.h"
+#include "wx/charts/wxchartscircleoptions.h"
 
 wxChartsCircleOptions::wxChartsCircleOptions(unsigned int outlineWidth, 
                                              const wxColor &outlineColor,

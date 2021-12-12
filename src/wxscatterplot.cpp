@@ -22,8 +22,8 @@
 
 /// @file
 
-#include "wxscatterplot.h"
-#include "wxchartstheme.h"
+#include "wx/charts/wxscatterplot.h"
+#include "wx/charts/wxchartstheme.h"
 #include <sstream>
 
 wxScatterPlotDataset::wxScatterPlotDataset(const wxColor& fillColor,

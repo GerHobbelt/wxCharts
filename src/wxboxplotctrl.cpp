@@ -22,7 +22,7 @@
 
 /// @file
 
-#include "wxboxplotctrl.h"
+#include "wx/charts/wxboxplotctrl.h"
 
 wxBoxPlotCtrl::wxBoxPlotCtrl(wxWindow *parent,
                              wxWindowID id,

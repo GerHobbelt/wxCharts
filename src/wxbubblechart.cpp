@@ -22,8 +22,8 @@
 
 /// @file
 
-#include "wxbubblechart.h"
-#include "wxchartstheme.h"
+#include "wx/charts/wxbubblechart.h"
+#include "wx/charts/wxchartstheme.h"
 #include <sstream>
 #include <cmath>
 

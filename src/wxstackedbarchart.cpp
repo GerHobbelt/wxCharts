@@ -22,10 +22,10 @@
 
 /// @file
 
-#include "wxstackedbarchart.h"
-#include "wxchartstheme.h"
-#include "wxchartscategoricalaxis.h"
-#include "wxchartsnumericalaxis.h"
+#include "wx/charts/wxstackedbarchart.h"
+#include "wx/charts/wxchartstheme.h"
+#include "wx/charts/wxchartscategoricalaxis.h"
+#include "wx/charts/wxchartsnumericalaxis.h"
 #include <sstream>
 
 wxStackedBarChart::Bar::Bar(wxDouble value,

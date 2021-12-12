@@ -20,7 +20,7 @@
     IN THE SOFTWARE.
 */
 
-#include "wxchartslegendctrl.h"
+#include "wx/charts/wxchartslegendctrl.h"
 #include <wx/dcbuffer.h>
 #include <wx/graphics.h>
 

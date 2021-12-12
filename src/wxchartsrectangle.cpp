@@ -31,8 +31,8 @@
     https://github.com/nnnick/Chart.js/blob/master/LICENSE.md
 */
 
-#include "wxchartsrectangle.h"
-#include "wxchartsutilities.h"
+#include "wx/charts/wxchartsrectangle.h"
+#include "wx/charts/wxchartsutilities.h"
 #include <wx/pen.h>
 #include <wx/brush.h>
 

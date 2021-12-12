@@ -20,4 +20,4 @@
     IN THE SOFTWARE.
 */
 
-#include "wxcombinationchartoptions.h"
+#include "wx/charts/wxcombinationchartoptions.h"

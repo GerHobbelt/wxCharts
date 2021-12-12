@@ -31,8 +31,8 @@
     https://github.com/nnnick/Chart.js/blob/master/LICENSE.md
 */
 
-#include "wxchartsradialgrid.h"
-#include "wxchartsutilities.h"
+#include "wx/charts/wxchartsradialgrid.h"
+#include "wx/charts/wxchartsutilities.h"
 #include <wx/pen.h>
 
 wxChartsRadialGrid::wxChartsRadialGrid(const wxSize &size,

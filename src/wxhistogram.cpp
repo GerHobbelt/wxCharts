@@ -31,8 +31,8 @@
     https://github.com/nnnick/Chart.js/blob/master/LICENSE.md
 */
 
-#include "wxhistogram.h"
-#include "wxchartstheme.h"
+#include "wx/charts/wxhistogram.h"
+#include "wx/charts/wxchartstheme.h"
 #include <wx/dcmemory.h>
 #include <sstream>
 #include <algorithm>

@@ -22,8 +22,8 @@
 
 /// @file
 
-#include "wxchartslegendline.h"
-#include "wxchartsutilities.h"
+#include "wx/charts/wxchartslegendline.h"
+#include "wx/charts/wxchartsutilities.h"
 #include <wx/brush.h>
 
 wxChartsLegendLine::wxChartsLegendLine(const wxColor &color,

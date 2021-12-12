@@ -22,7 +22,7 @@
 
 /// @file
 
-#include "wxchartspresentationtheme.h"
+#include "wx/charts/wxchartspresentationtheme.h"
 
 wxChartsPresentationTheme::wxChartsPresentationTheme()
 {

@@ -31,9 +31,9 @@
     https://github.com/nnnick/Chart.js/blob/master/LICENSE.md
 */
 
-#include "wxcharttooltip.h"
-#include "wxchartbackground.h"
-#include "wxchartsutilities.h"
+#include "wx/charts/wxcharttooltip.h"
+#include "wx/charts/wxchartbackground.h"
+#include "wx/charts/wxchartsutilities.h"
 #include <wx/brush.h>
 
 wxChartTooltip::wxChartTooltip(const wxPoint2DDouble &position,

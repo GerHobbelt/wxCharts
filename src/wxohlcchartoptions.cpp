@@ -22,7 +22,7 @@
 
 /// @file
 
-#include "wxohlcchartoptions.h"
+#include "wx/charts/wxohlcchartoptions.h"
 
 wxOHLCChartOptions::wxOHLCChartOptions()
 {

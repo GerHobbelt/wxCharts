@@ -22,7 +22,7 @@
 
 /// @file
 
-#include "wxchartsdatasetid.h"
+#include "wx/charts/wxchartsdatasetid.h"
 
 wxChartsDatasetId::wxChartsDatasetId()
     : m_implicitId(-1)

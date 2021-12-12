@@ -22,7 +22,7 @@
 
 /// @file
 
-#include "wxstackedbarchartctrl.h"
+#include "wx/charts/wxstackedbarchartctrl.h"
 
 wxStackedBarChartCtrl::wxStackedBarChartCtrl(wxWindow *parent,
                                              wxWindowID id,

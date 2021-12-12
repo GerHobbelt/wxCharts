@@ -33,7 +33,7 @@
 
 /// @file
 
-#include "wxmath2dplotctrl.h"
+#include "wx/charts/wxmath2dplotctrl.h"
 #include <wx/filedlg.h>
 
 wxMath2DPlotCtrl::wxMath2DPlotCtrl(wxWindow *parent,

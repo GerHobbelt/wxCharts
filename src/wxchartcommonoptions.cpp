@@ -20,7 +20,7 @@
     IN THE SOFTWARE.
 */
 
-#include "wxchartcommonoptions.h"
+#include "wx/charts/wxchartcommonoptions.h"
 
 wxChartCommonOptions::wxChartCommonOptions()
     : m_responsive(true), m_showTooltips(true)

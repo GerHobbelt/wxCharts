@@ -20,7 +20,7 @@
     IN THE SOFTWARE.
 */
 
-#include "wxchartsradialgridoptions.h"
+#include "wx/charts/wxchartsradialgridoptions.h"
 
 wxChartsRadialGridOptions::wxChartsRadialGridOptions(wxChartsRadialGridStyle style)
     : m_style(style), m_lineWidth(1), m_lineColor(0, 0, 0, 0x19),

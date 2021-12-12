@@ -20,7 +20,7 @@
     IN THE SOFTWARE.
 */
 
-#include "wxchartslabelgroup.h"
+#include "wx/charts/wxchartslabelgroup.h"
 
 wxChartsLabelGroup::wxChartsLabelGroup()
     : m_maxWidth(0)

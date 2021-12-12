@@ -20,7 +20,7 @@
     IN THE SOFTWARE.
 */
 
-#include "wxchartctrl.h"
+#include "wx/charts/wxchartctrl.h"
 #include <wx/dcbuffer.h>
 
 wxChartCtrl::wxChartCtrl(wxWindow *parent,

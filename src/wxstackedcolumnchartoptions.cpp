@@ -20,7 +20,7 @@
     IN THE SOFTWARE.
 */
 
-#include "wxstackedcolumnchartoptions.h"
+#include "wx/charts/wxstackedcolumnchartoptions.h"
 
 wxStackedColumnChartOptions::wxStackedColumnChartOptions()
     : m_gridOptions(

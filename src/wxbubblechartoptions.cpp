@@ -22,7 +22,7 @@
 
 /// @file
 
-#include "wxbubblechartoptions.h"
+#include "wx/charts/wxbubblechartoptions.h"
 
 wxBubbleChartOptions::wxBubbleChartOptions()
 {

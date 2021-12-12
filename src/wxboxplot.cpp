@@ -22,10 +22,10 @@
 
 /// @file
 
-#include "wxboxplot.h"
-#include "wxchartstheme.h"
-#include "wxchartscategoricalaxis.h"
-#include "wxchartsnumericalaxis.h"
+#include "wx/charts/wxboxplot.h"
+#include "wx/charts/wxchartstheme.h"
+#include "wx/charts/wxchartscategoricalaxis.h"
+#include "wx/charts/wxchartsnumericalaxis.h"
 #include <wx/brush.h>
 #include <wx/pen.h>
 #include <sstream>

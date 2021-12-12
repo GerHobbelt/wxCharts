@@ -20,7 +20,7 @@
     IN THE SOFTWARE.
 */
 
-#include "wxchartslegendoptions.h"
+#include "wx/charts/wxchartslegendoptions.h"
 
 wxChartsLegendOptions::wxChartsLegendOptions()
     : m_orientation(wxVERTICAL)

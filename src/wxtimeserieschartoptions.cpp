@@ -20,7 +20,7 @@
     IN THE SOFTWARE.
 */
 
-#include "wxtimeserieschartoptions.h"
+#include "wx/charts/wxtimeserieschartoptions.h"
 
 wxTimeSeriesChartOptions::wxTimeSeriesChartOptions()
 {

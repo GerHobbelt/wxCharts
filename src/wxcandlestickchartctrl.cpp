@@ -22,7 +22,7 @@
 
 /// @file
 
-#include "wxcandlestickchartctrl.h"
+#include "wx/charts/wxcandlestickchartctrl.h"
 
 wxCandlestickChartCtrl::wxCandlestickChartCtrl(wxWindow *parent,
                                                wxWindowID id,

@@ -20,7 +20,7 @@
     IN THE SOFTWARE.
 */
 
-#include "wxchartmultitooltipoptions.h"
+#include "wx/charts/wxchartmultitooltipoptions.h"
 
 wxChartMultiTooltipOptions::wxChartMultiTooltipOptions()
     : m_showTitle(true), 

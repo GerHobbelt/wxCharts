@@ -20,7 +20,7 @@
     IN THE SOFTWARE.
 */
 
-#include "wxchartsarcoptions.h"
+#include "wx/charts/wxchartsarcoptions.h"
 
 wxChartsArcOptions::wxChartsArcOptions(unsigned int outlineWidth,
                                        const wxColor &fillColor)

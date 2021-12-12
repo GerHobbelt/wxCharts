@@ -33,10 +33,10 @@
 
 /// @file
 
-#include "wxlinechart.h"
-#include "wxchartstheme.h"
-#include "wxchartscategoricalaxis.h"
-#include "wxchartsnumericalaxis.h"
+#include "wx/charts/wxlinechart.h"
+#include "wx/charts/wxchartstheme.h"
+#include "wx/charts/wxchartscategoricalaxis.h"
+#include "wx/charts/wxchartsnumericalaxis.h"
 #include <wx/brush.h>
 #include <wx/pen.h>
 #include <wx/dcmemory.h>

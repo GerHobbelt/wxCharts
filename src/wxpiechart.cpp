@@ -20,8 +20,8 @@
     IN THE SOFTWARE.
 */
 
-#include "wxpiechart.h"
-#include "wxchartstheme.h"
+#include "wx/charts/wxpiechart.h"
+#include "wx/charts/wxchartstheme.h"
 
 wxPieChart::wxPieChart(wxPieChartData::ptr data,
                        const wxSize &size)

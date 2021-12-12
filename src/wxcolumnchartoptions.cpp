@@ -22,7 +22,7 @@
 
 /// @file
 
-#include "wxcolumnchartoptions.h"
+#include "wx/charts/wxcolumnchartoptions.h"
 
 wxColumnChartOptions::wxColumnChartOptions()
     : m_gridOptions(

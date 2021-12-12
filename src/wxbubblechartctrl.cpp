@@ -22,7 +22,7 @@
 
 /// @file
 
-#include "wxbubblechartctrl.h"
+#include "wx/charts/wxbubblechartctrl.h"
 
 wxBubbleChartCtrl::wxBubbleChartCtrl(wxWindow *parent,
                                      wxWindowID id,

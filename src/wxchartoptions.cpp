@@ -20,7 +20,7 @@
     IN THE SOFTWARE.
 */
 
-#include "wxchartoptions.h"
+#include "wx/charts/wxchartoptions.h"
 
 wxChartOptions::wxChartOptions()
     : m_enableSaveAsMenu(true)

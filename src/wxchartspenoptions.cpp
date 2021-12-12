@@ -22,7 +22,7 @@
 
 /// @file
 
-#include "wxchartspenoptions.h"
+#include "wx/charts/wxchartspenoptions.h"
 
 wxChartsPenOptions::wxChartsPenOptions(const wxColor &color,
                                        int width,

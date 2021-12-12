@@ -20,7 +20,7 @@
     IN THE SOFTWARE.
 */
 
-#include "wxchartslicedata.h"
+#include "wx/charts/wxchartslicedata.h"
 #include <sstream>
 
 wxChartSliceData::wxChartSliceData(wxDouble value,

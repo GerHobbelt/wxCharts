@@ -32,6 +32,6 @@ TestSuite::TestSuite()
 void TestSuite::run()
 {
     int argc = 1;
-    char* argv[1] = { "wxchartstests" };
+    const char* argv[1] = { "wxchartstests" };
     int result = Catch::Session().run(argc, argv);
 }

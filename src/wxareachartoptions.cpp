@@ -22,7 +22,7 @@
 
 /// @file
 
-#include "wxareachartoptions.h"
+#include "wx/charts/wxareachartoptions.h"
 
 wxAreaChartOptions::wxAreaChartOptions()
     : m_dotRadius(4), m_dotStrokeWidth(1),

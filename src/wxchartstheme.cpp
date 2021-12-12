@@ -22,8 +22,8 @@
 
 /// @file
 
-#include "wxchartstheme.h"
-#include "wxchartspresentationtheme.h"
+#include "wx/charts/wxchartstheme.h"
+#include "wx/charts/wxchartspresentationtheme.h"
 
 wxChartsTheme::wxChartsTheme()
     : m_areaChartOptions(new wxAreaChartOptions()),

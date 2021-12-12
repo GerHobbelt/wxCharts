@@ -22,7 +22,7 @@
 
 /// @file
 
-#include "wxchartsprecisiontheme.h"
+#include "wx/charts/wxchartsprecisiontheme.h"
 
 wxChartsPrecisionTheme::wxChartsPrecisionTheme()
 {

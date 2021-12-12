@@ -20,7 +20,7 @@
     IN THE SOFTWARE.
 */
 
-#include "wxdoughnutchartctrl.h"
+#include "wx/charts/wxdoughnutchartctrl.h"
 
 wxDoughnutChartCtrl::wxDoughnutChartCtrl(wxWindow *parent,
                                          wxWindowID id,

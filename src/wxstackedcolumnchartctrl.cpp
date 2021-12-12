@@ -31,7 +31,7 @@
     https://github.com/nnnick/Chart.js/blob/master/LICENSE.md
 */
 
-#include "wxstackedcolumnchartctrl.h"
+#include "wx/charts/wxstackedcolumnchartctrl.h"
 
 wxStackedColumnChartCtrl::wxStackedColumnChartCtrl(wxWindow *parent,
                                                    wxWindowID id,

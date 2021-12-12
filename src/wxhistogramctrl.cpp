@@ -33,7 +33,7 @@
 
 /// @file
 
-#include "wxhistogramctrl.h"
+#include "wx/charts/wxhistogramctrl.h"
 #include <wx/filedlg.h>
 
 wxHistogramCtrl::wxHistogramCtrl(wxWindow *parent,

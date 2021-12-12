@@ -31,9 +31,9 @@
     https://github.com/nnnick/Chart.js/blob/master/LICENSE.md
 */
 
-#include "wxchartsgrid.h"
-#include "wxchartsnumericalaxis.h"
-#include "wxchartscategoricalaxis.h"
+#include "wx/charts/wxchartsgrid.h"
+#include "wx/charts/wxchartsnumericalaxis.h"
+#include "wx/charts/wxchartscategoricalaxis.h"
 #include <wx/pen.h>
 
 static const wxDouble MinDistance = 1.0e-3;

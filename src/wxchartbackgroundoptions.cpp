@@ -22,7 +22,7 @@
 
 /// @file
 
-#include "wxchartbackgroundoptions.h"
+#include "wx/charts/wxchartbackgroundoptions.h"
 
 wxChartBackgroundOptions::wxChartBackgroundOptions(const wxColor &color,
                                                    wxDouble cornerRadius)

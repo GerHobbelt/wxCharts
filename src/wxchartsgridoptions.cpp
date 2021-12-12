@@ -20,7 +20,7 @@
     IN THE SOFTWARE.
 */
 
-#include "wxchartsgridoptions.h"
+#include "wx/charts/wxchartsgridoptions.h"
 
 wxChartsGridLineOptions::wxChartsGridLineOptions()
     : m_showGridLines(true),

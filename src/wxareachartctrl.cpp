@@ -33,7 +33,7 @@
 
 /// @file
 
-#include "wxareachartctrl.h"
+#include "wx/charts/wxareachartctrl.h"
 #include <wx/filedlg.h>
 
 wxAreaChartCtrl::wxAreaChartCtrl(wxWindow *parent,

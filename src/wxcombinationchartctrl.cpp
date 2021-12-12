@@ -20,7 +20,7 @@
     IN THE SOFTWARE.
 */
 
-#include "wxcombinationchartctrl.h"
+#include "wx/charts/wxcombinationchartctrl.h"
 
 wxCombinationChartCtrl::wxCombinationChartCtrl(wxWindow *parent,
 							                   wxWindowID id,

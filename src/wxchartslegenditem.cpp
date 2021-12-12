@@ -20,8 +20,8 @@
     IN THE SOFTWARE.
 */
 
-#include "wxchartslegenditem.h"
-#include "wxchartstheme.h"
+#include "wx/charts/wxchartslegenditem.h"
+#include "wx/charts/wxchartstheme.h"
 
 wxChartsLegendItem::wxChartsLegendItem(const wxColor &color,
                                        const wxString &label)

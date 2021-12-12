@@ -20,7 +20,7 @@
     IN THE SOFTWARE.
 */
 
-#include "wxchartslabeloptions.h"
+#include "wx/charts/wxchartslabeloptions.h"
 
 wxChartsLabelOptions::RefData::RefData(const wxChartFontOptions &fontOptions,
                                        bool hasBackground,

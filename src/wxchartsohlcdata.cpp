@@ -20,7 +20,7 @@
     IN THE SOFTWARE.
 */
 
-#include "wxchartsohlcdata.h"
+#include "wx/charts/wxchartsohlcdata.h"
 
 wxChartsOHLCData::wxChartsOHLCData(wxDouble open, wxDouble high, wxDouble low, wxDouble close)
     : m_open(open), m_high(high), m_low(low), m_close(close)

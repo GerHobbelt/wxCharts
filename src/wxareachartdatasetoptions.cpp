@@ -22,7 +22,7 @@
 
 /// @file
 
-#include "wxareachartdatasetoptions.h"
+#include "wx/charts/wxareachartdatasetoptions.h"
 
 wxAreaChartDatasetOptions::wxAreaChartDatasetOptions(const wxColor &dotColor)
     : m_showDots(true), m_dotColor(dotColor), m_showLine(true), m_lineColor(dotColor)

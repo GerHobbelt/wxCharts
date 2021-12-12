@@ -31,7 +31,7 @@
     https://github.com/nnnick/Chart.js/blob/master/LICENSE.md
 */
 
-#include "wxpolarareachartctrl.h"
+#include "wx/charts/wxpolarareachartctrl.h"
 
 wxPolarAreaChartCtrl::wxPolarAreaChartCtrl(wxWindow *parent,
                                            wxWindowID id,

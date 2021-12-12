@@ -20,7 +20,7 @@
     IN THE SOFTWARE.
 */
 
-#include "wxdoughnutandpiechartoptionsbase.h"
+#include "wx/charts/wxdoughnutandpiechartoptionsbase.h"
 
 wxDoughnutAndPieChartOptionsBase::wxDoughnutAndPieChartOptionsBase(unsigned int percentageInnerCutout)
     : m_sliceStrokeWidth(2), m_percentageInnerCutout(percentageInnerCutout)

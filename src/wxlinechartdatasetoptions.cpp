@@ -22,7 +22,7 @@
 
 /// @file
 
-#include "wxlinechartdatasetoptions.h"
+#include "wx/charts/wxlinechartdatasetoptions.h"
 
 wxLineChartDatasetOptions::wxLineChartDatasetOptions(const wxColor &dotColor,
                                                      const wxColor &dotStrokeColor,

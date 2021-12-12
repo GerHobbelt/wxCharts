@@ -22,7 +22,7 @@
 
 /// @file
 
-#include "wxscatterplotoptions.h"
+#include "wx/charts/wxscatterplotoptions.h"
 
 wxScatterPlotOptions::wxScatterPlotOptions()
 {

@@ -22,7 +22,7 @@
 
 /// @file
 
-#include "wxchartsbrushoptions.h"
+#include "wx/charts/wxchartsbrushoptions.h"
 
 wxChartsBrushOptions::wxChartsBrushOptions(const wxColor &color)
     : m_color(color)

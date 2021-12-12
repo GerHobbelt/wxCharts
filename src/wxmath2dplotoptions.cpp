@@ -20,7 +20,7 @@
     IN THE SOFTWARE.
 */
 
-#include "wxmath2dplotoptions.h"
+#include "wx/charts/wxmath2dplotoptions.h"
 
 wxMath2DPlotOptions::wxMath2DPlotOptions()
     : m_dotRadius(4), m_dotStrokeWidth(1),

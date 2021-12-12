@@ -31,8 +31,8 @@
     https://github.com/nnnick/Chart.js/blob/master/LICENSE.md
 */
 
-#include "wxchartsnumericalaxis.h"
-#include "wxchartsutilities.h"
+#include "wx/charts/wxchartsnumericalaxis.h"
+#include "wx/charts/wxchartsutilities.h"
 
 wxChartsNumericalAxis::wxChartsNumericalAxis(const std::string &id, 
                                              wxDouble minValue,

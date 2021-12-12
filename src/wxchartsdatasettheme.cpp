@@ -22,7 +22,7 @@
 
 /// @file
 
-#include "wxchartsdatasettheme.h"
+#include "wx/charts/wxchartsdatasettheme.h"
 
 wxChartsDatasetTheme::wxChartsDatasetTheme()
     : m_areaChartDatasetOptions(new wxAreaChartDatasetOptions(*wxBLACK)),

@@ -31,8 +31,8 @@
     https://github.com/nnnick/Chart.js/blob/master/LICENSE.md
 */
 
-#include "wxchartmultitooltip.h"
-#include "wxchartsutilities.h"
+#include "wx/charts/wxchartmultitooltip.h"
+#include "wx/charts/wxchartsutilities.h"
 #include <wx/brush.h>
 
 wxChartMultiTooltip::wxChartMultiTooltip(const wxString &title)

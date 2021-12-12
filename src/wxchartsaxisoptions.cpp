@@ -20,7 +20,7 @@
     IN THE SOFTWARE.
 */
 
-#include "wxchartsaxisoptions.h"
+#include "wx/charts/wxchartsaxisoptions.h"
 
 wxChartsAxisOptions::wxChartsAxisOptions(wxChartsAxisPosition position)
     : m_position(position), m_labelType(wxCHARTSAXISLABELTYPE_POINT),

@@ -20,7 +20,7 @@
     IN THE SOFTWARE.
 */
 
-#include "wxtimeserieschartctrl.h"
+#include "wx/charts/wxtimeserieschartctrl.h"
 
 wxTimeSeriesChartCtrl::wxTimeSeriesChartCtrl(wxWindow *parent,
                                              wxWindowID id,

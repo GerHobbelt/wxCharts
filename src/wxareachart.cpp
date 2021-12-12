@@ -33,8 +33,8 @@
 
 /// @file
 
-#include "wxareachart.h"
-#include "wxchartstheme.h"
+#include "wx/charts/wxareachart.h"
+#include "wx/charts/wxchartstheme.h"
 #include <wx/dcmemory.h>
 #include <sstream>
 

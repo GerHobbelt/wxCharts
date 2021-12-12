@@ -20,7 +20,7 @@
     IN THE SOFTWARE.
 */
 
-#include "wxchartstimeaxis.h"
+#include "wx/charts/wxchartstimeaxis.h"
 
 wxChartsTimeAxis::wxChartsTimeAxis(const std::string &id,
                                    const wxChartsAxisOptions &options)

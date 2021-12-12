@@ -22,7 +22,7 @@
 
 /// @file
 
-#include "wxscatterplotctrl.h"
+#include "wx/charts/wxscatterplotctrl.h"
 
 wxScatterPlotCtrl::wxScatterPlotCtrl(wxWindow *parent,
                                      wxWindowID id,

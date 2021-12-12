@@ -22,4 +22,4 @@
 
 /// @file
 
-#include "wxchartscategoricaldataobserver.h"
+#include "wx/charts/wxchartscategoricaldataobserver.h"

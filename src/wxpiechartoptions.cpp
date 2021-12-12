@@ -20,7 +20,7 @@
     IN THE SOFTWARE.
 */
 
-#include "wxpiechartoptions.h"
+#include "wx/charts/wxpiechartoptions.h"
 
 wxPieChartOptions::wxPieChartOptions()
     : wxDoughnutAndPieChartOptionsBase(0)

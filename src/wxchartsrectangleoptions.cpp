@@ -20,7 +20,7 @@
     IN THE SOFTWARE.
 */
 
-#include "wxchartsrectangleoptions.h"
+#include "wx/charts/wxchartsrectangleoptions.h"
 
 wxChartsRectangleOptions::wxChartsRectangleOptions(const wxChartsPenOptions &penOptions,
                                                    const wxChartsBrushOptions &brushOptions,

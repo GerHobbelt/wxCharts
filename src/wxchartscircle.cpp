@@ -20,7 +20,7 @@
     IN THE SOFTWARE.
 */
 
-#include "wxchartscircle.h"
+#include "wx/charts/wxchartscircle.h"
 #include <wx/pen.h>
 #include <wx/brush.h>
 

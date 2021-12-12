@@ -31,8 +31,8 @@
     https://github.com/nnnick/Chart.js/blob/master/LICENSE.md
 */
 
-#include "wxchartsgridmapping.h"
-#include "wxchartsnumericalaxis.h"
+#include "wx/charts/wxchartsgridmapping.h"
+#include "wx/charts/wxchartsnumericalaxis.h"
 
 wxChartsGridMapping::wxChartsGridMapping()
 {

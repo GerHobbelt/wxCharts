@@ -31,7 +31,7 @@
     https://github.com/nnnick/Chart.js/blob/master/LICENSE.md
 */
 
-#include "wxchartspoint.h"
+#include "wx/charts/wxchartspoint.h"
 #include <wx/pen.h>
 #include <wx/brush.h>
 

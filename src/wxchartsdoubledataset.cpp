@@ -22,7 +22,7 @@
 
 /// @file
 
-#include "wxchartsdoubledataset.h"
+#include "wx/charts/wxchartsdoubledataset.h"
 
 wxChartsDoubleDataset::wxChartsDoubleDataset(const wxString& name,
                                              const wxVector<wxDouble> &data)

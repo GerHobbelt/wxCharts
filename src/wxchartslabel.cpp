@@ -20,9 +20,9 @@
     IN THE SOFTWARE.
 */
 
-#include "wxchartslabel.h"
-#include "wxchartbackground.h"
-#include "wxchartsutilities.h"
+#include "wx/charts/wxchartslabel.h"
+#include "wx/charts/wxchartbackground.h"
+#include "wx/charts/wxchartsutilities.h"
 
 wxChartsLabel::wxChartsLabel(const wxString &text,
                              const wxChartsLabelOptions &options)

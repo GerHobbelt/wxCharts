@@ -22,7 +22,7 @@
 
 /// @file
 
-#include "wxstackedbarchartdatasetoptions.h"
+#include "wx/charts/wxstackedbarchartdatasetoptions.h"
 
 wxStackedBarChartDatasetOptions::wxStackedBarChartDatasetOptions(const wxChartsPenOptions &penOptions,
                                                                  const wxChartsBrushOptions &brushOptions)

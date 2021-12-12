@@ -22,7 +22,7 @@
 
 /// @file
 
-#include "wxchartsthemeid.h"
+#include "wx/charts/wxchartsthemeid.h"
 
 wxChartsThemeId::wxChartsThemeId()
     : m_id("default")

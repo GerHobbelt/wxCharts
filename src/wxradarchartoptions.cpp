@@ -20,7 +20,7 @@
     IN THE SOFTWARE.
 */
 
-#include "wxradarchartoptions.h"
+#include "wx/charts/wxradarchartoptions.h"
 
 wxRadarChartOptions::wxRadarChartOptions()
     : m_gridOptions(wxCHARTSRADIALGRIDSTYLE_POLYGONAL)

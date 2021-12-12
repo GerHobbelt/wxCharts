@@ -33,7 +33,7 @@
 
 /// @file
 
-#include "wxbarchartctrl.h"
+#include "wx/charts/wxbarchartctrl.h"
 
 wxBarChartCtrl::wxBarChartCtrl(wxWindow *parent,
                                wxWindowID id,

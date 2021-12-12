@@ -31,10 +31,10 @@
     https://github.com/nnnick/Chart.js/blob/master/LICENSE.md
 */
 
-#include "wxstackedcolumnchart.h"
-#include "wxchartstheme.h"
-#include "wxchartscategoricalaxis.h"
-#include "wxchartsnumericalaxis.h"
+#include "wx/charts/wxstackedcolumnchart.h"
+#include "wx/charts/wxchartstheme.h"
+#include "wx/charts/wxchartscategoricalaxis.h"
+#include "wx/charts/wxchartsnumericalaxis.h"
 #include <sstream>
 
 wxStackedColumnChart::Column::Column(wxDouble value,

@@ -31,7 +31,7 @@
     https://github.com/nnnick/Chart.js/blob/master/LICENSE.md
 */
 
-#include "wxchartsaxis.h"
+#include "wx/charts/wxchartsaxis.h"
 #include <wx/pen.h>
 
 void wxChartsAxis::Draw(wxGraphicsContext &gc) const

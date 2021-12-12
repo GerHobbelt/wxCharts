@@ -22,7 +22,7 @@
 
 /// @file
 
-#include "wxchartsthemefactory.h"
+#include "wx/charts/wxchartsthemefactory.h"
 
 std::map<wxChartsThemeId, wxSharedPtr<wxChartsTheme>>* wxChartsThemeFactory::m_themes = 0;
 

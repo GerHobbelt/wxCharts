@@ -20,8 +20,8 @@
     IN THE SOFTWARE.
 */
 
-#include "wxtimeserieschart.h"
-#include "wxchartstheme.h"
+#include "wx/charts/wxtimeserieschart.h"
+#include "wx/charts/wxchartstheme.h"
 
 wxTimeSeriesChart::wxTimeSeriesChart(const wxSize &size)
     : m_options(wxChartsDefaultTheme->GetTimeSeriesChartOptions())

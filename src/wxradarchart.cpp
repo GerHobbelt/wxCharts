@@ -31,8 +31,8 @@
     https://github.com/nnnick/Chart.js/blob/master/LICENSE.md
 */
 
-#include "wxradarchart.h"
-#include "wxchartstheme.h"
+#include "wx/charts/wxradarchart.h"
+#include "wx/charts/wxchartstheme.h"
 
 wxRadarChartData::wxRadarChartData(const wxVector<wxString> &labels)
     : m_labels(labels)

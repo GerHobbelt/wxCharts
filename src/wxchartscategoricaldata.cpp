@@ -22,7 +22,7 @@
 
 /// @file
 
-#include "wxchartscategoricaldata.h"
+#include "wx/charts/wxchartscategoricaldata.h"
 
 wxChartsCategoricalData::wxChartsCategoricalData(const wxVector<wxString> &categories)
     : m_categories(categories)

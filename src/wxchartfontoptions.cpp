@@ -22,7 +22,7 @@
 
 /// @file
 
-#include "wxchartfontoptions.h"
+#include "wx/charts/wxchartfontoptions.h"
 
 wxChartFontOptions::wxChartFontOptions(wxFontFamily family,
                                        int size,

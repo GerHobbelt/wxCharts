@@ -20,7 +20,7 @@
     IN THE SOFTWARE.
 */
 
-#include "wxcharttooltipprovider.h"
+#include "wx/charts/wxcharttooltipprovider.h"
 
 wxChartTooltipProvider::wxChartTooltipProvider()
 {

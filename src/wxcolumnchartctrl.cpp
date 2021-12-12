@@ -33,7 +33,7 @@
 
 /// @file
 
-#include "wxcolumnchartctrl.h"
+#include "wx/charts/wxcolumnchartctrl.h"
 
 wxColumnChartCtrl::wxColumnChartCtrl(wxWindow *parent,
                                      wxWindowID id,

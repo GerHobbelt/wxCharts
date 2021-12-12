@@ -22,7 +22,7 @@
 
 /// @file
 
-#include "wxchartsdataset.h"
+#include "wx/charts/wxchartsdataset.h"
 
 wxChartsDataset::wxChartsDataset(const wxString& name)
     : m_name(name)

@@ -22,7 +22,7 @@
 
 /// @file
 
-#include "wxboxplotdatasetoptions.h"
+#include "wx/charts/wxboxplotdatasetoptions.h"
 
 wxBoxPlotDatasetOptions::wxBoxPlotDatasetOptions()
     : m_lineColor(0, 0, 0, 0x80), m_width(3), m_upFillColor(0, 205, 0, 0x60), m_rectangleWidth(20)

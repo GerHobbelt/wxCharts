@@ -31,7 +31,7 @@
     https://github.com/nnnick/Chart.js/blob/master/LICENSE.md
 */
 
-#include "wxchartscategoricalaxis.h"
+#include "wx/charts/wxchartscategoricalaxis.h"
 
 wxChartsCategoricalAxis::wxChartsCategoricalAxis(const std::string &id, 
                                                  const wxVector<wxString> &labels,

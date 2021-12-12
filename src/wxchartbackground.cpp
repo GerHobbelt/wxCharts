@@ -22,7 +22,7 @@
 
 /// @file
 
-#include "wxchartbackground.h"
+#include "wx/charts/wxchartbackground.h"
 #include <wx/brush.h>
 
 wxChartBackground::wxChartBackground(const wxChartBackgroundOptions &options)

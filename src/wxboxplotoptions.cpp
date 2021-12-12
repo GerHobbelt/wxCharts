@@ -22,7 +22,7 @@
 
 /// @file
 
-#include "wxboxplotoptions.h"
+#include "wx/charts/wxboxplotoptions.h"
 
 wxBoxPlotOptions::wxBoxPlotOptions()
 {

@@ -31,8 +31,8 @@
     https://github.com/nnnick/Chart.js/blob/master/LICENSE.md
 */
 
-#include "wxpolarareachart.h"
-#include "wxchartstheme.h"
+#include "wx/charts/wxpolarareachart.h"
+#include "wx/charts/wxchartstheme.h"
 
 wxPolarAreaChartData::wxPolarAreaChartData()
 {

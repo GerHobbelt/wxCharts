@@ -20,7 +20,7 @@
     IN THE SOFTWARE.
 */
 
-#include "wxpiechartctrl.h"
+#include "wx/charts/wxpiechartctrl.h"
 
 wxPieChartCtrl::wxPieChartCtrl(wxWindow *parent,
                                wxWindowID id,

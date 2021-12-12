@@ -22,7 +22,7 @@
 
 /// @file
 
-#include "wxlinechartoptions.h"
+#include "wx/charts/wxlinechartoptions.h"
 
 wxLineChartOptions::wxLineChartOptions()
     : m_hitDetectionRange(24)

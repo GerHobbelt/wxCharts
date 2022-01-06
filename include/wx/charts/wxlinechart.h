@@ -41,6 +41,7 @@
 #include "wxlinechartoptions.h"
 #include "wxchartsgrid.h"
 #include "wxchartspoint.h"
+#include "wxchartstheme.h"
 #include <wx/sharedptr.h>
 
 enum wxChartsLineType

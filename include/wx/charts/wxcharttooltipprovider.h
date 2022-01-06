@@ -25,6 +25,7 @@
 #ifndef _WX_CHARTS_WXCHARTTOOLTIPPROVIDER_H_
 #define _WX_CHARTS_WXCHARTTOOLTIPPROVIDER_H_
 
+#include "wxchart_dlimpexp.h"
 #include <wx/colour.h>
 #include <wx/string.h>
 

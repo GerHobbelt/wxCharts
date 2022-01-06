@@ -25,6 +25,7 @@
 #ifndef _WX_CHARTS_WXCHARTFONTOPTIONS_H_
 #define _WX_CHARTS_WXCHARTFONTOPTIONS_H_
 
+#include "wxchart_dlimpexp.h"
 #include <wx/colour.h>
 #include <wx/font.h>
 

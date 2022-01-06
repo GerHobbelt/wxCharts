@@ -25,6 +25,7 @@
 #ifndef _WX_CHARTS_WXBOXPLOTDATASETOPTIONS_H_
 #define _WX_CHARTS_WXBOXPLOTDATASETOPTIONS_H_
 
+#include "wxchart_dlimpexp.h"
 #include <wx/colour.h>
 
 class wxBoxPlotDatasetOptions

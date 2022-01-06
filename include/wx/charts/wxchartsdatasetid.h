@@ -25,6 +25,7 @@
 #ifndef _WX_CHARTS_WXCHARTSDATASETID_H_
 #define _WX_CHARTS_WXCHARTSDATASETID_H_
 
+#include "wxchart_dlimpexp.h"
 #include <wx/string.h>
 
 /// Identifier for a dataset.

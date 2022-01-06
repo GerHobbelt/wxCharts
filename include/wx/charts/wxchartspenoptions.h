@@ -25,6 +25,7 @@
 #ifndef _WX_CHARTS_WXCHARTSPENOPTIONS_H_
 #define _WX_CHARTS_WXCHARTSPENOPTIONS_H_
 
+#include "wxchart_dlimpexp.h"
 #include <wx/colour.h>
 #include <wx/pen.h>
 

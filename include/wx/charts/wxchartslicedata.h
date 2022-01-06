@@ -25,6 +25,7 @@
 
 /// @file
 
+#include "wxchart_dlimpexp.h"
 #include <wx/string.h>
 #include <wx/colour.h>
 

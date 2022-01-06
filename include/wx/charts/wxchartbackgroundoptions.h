@@ -25,6 +25,7 @@
 #ifndef _WX_CHARTS_WXCHARTBACKGROUNDOPTIONS_H_
 #define _WX_CHARTS_WXCHARTBACKGROUNDOPTIONS_H_
 
+#include "wxchart_dlimpexp.h"
 #include <wx/colour.h>
 
 /// The options for the wxChartBackground class.

@@ -25,6 +25,7 @@
 #ifndef _WX_CHARTS_WXCHARTOBSERVERS_H_
 #define _WX_CHARTS_WXCHARTOBSERVERS_H_
 
+#include "wxchart_dlimpexp.h"
 #include <wx/vector.h>
 
 template<typename T>

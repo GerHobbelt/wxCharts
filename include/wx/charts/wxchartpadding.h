@@ -25,6 +25,7 @@
 #ifndef _WX_CHARTS_WXCHARTPADDING_H_
 #define _WX_CHARTS_WXCHARTPADDING_H_
 
+#include "wxchart_dlimpexp.h"
 #include <wx/defs.h>
 
 /// Padding options for the wxChartCtrl class.

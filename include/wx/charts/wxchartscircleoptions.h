@@ -25,6 +25,7 @@
 #ifndef _WX_CHARTS_WXCHARTSCIRCLEOPTIONS_H_
 #define _WX_CHARTS_WXCHARTSCIRCLEOPTIONS_H_
 
+#include "wxchart_dlimpexp.h"
 #include <wx/colour.h>
 
 /// Options for the wxChartsCircle class.

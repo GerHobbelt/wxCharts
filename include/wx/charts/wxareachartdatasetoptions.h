@@ -28,7 +28,7 @@
 #include "wxchart_dlimpexp.h"
 #include <wx/colour.h>
 
-class wxAreaChartDatasetOptions
+class WXCHARTS_DLLIMPEXP wxAreaChartDatasetOptions
 {
 public:
     wxAreaChartDatasetOptions(const wxColor &dotColor);

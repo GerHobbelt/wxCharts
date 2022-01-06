@@ -43,7 +43,7 @@
 /// A control that displays a math2d plot.
 
 /// \ingroup chartclasses
-class wxHistogramCtrl : public wxChartCtrl
+class WXCHARTS_DLLIMPEXP wxHistogramCtrl : public wxChartCtrl
 {
 public:
     /// Constructs a wxHistogramCtrl control.

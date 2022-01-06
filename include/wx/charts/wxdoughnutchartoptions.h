@@ -30,7 +30,7 @@
 /// The options for the wxDoughnutChartCtrl control.
 
 /// \ingroup chartclasses
-class wxDoughnutChartOptions : public wxDoughnutAndPieChartOptionsBase
+class WXCHARTS_DLLIMPEXP wxDoughnutChartOptions : public wxDoughnutAndPieChartOptionsBase
 {
 public:
     /// Constructs a wxDougnutChartOptions

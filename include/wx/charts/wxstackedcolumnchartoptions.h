@@ -31,7 +31,7 @@
 /// The options for the wxStackedColumnChartCtrl control.
 
 /// \ingroup chartclasses
-class wxStackedColumnChartOptions : public wxChartOptions
+class WXCHARTS_DLLIMPEXP wxStackedColumnChartOptions : public wxChartOptions
 {
 public:
     /// Constructs a wxStackedColumnChartOptions instance.

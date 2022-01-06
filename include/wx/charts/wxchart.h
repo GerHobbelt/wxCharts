@@ -34,7 +34,7 @@
 /// Base class for the chart classes.
 
 /// \ingroup chartclasses
-class wxChart
+class WXCHARTS_DLLIMPEXP wxChart
 {
 public:
     wxChart();

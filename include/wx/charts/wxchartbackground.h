@@ -29,7 +29,7 @@
 #include <wx/graphics.h>
 
 /// Class to draw backgrounds for various chart elements.
-class wxChartBackground
+class WXCHARTS_DLLIMPEXP wxChartBackground
 {
 public:
     wxChartBackground(const wxChartBackgroundOptions &options);

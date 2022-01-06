@@ -31,7 +31,7 @@
 /// The options for the wxColumnChartCtrl control.
 
 /// \ingroup chartclasses
-class wxColumnChartOptions : public wxChartOptions
+class WXCHARTS_DLLIMPEXP wxColumnChartOptions : public wxChartOptions
 {
 public:
     /// Constructs a wxColumnChartOptions instance.
@@ -55,7 +55,7 @@ private:
     wxDouble m_datasetSpacing;
 };
 
-class wxColumnChartDatasetStyle
+class WXCHARTS_DLLIMPEXP wxColumnChartDatasetStyle
 {
 public:
     wxColumnChartDatasetStyle();

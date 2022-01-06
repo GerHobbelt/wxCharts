@@ -28,7 +28,7 @@
 #include "wxchart_dlimpexp.h"
 #include <wx/colour.h>
 
-class wxBoxPlotDatasetOptions
+class WXCHARTS_DLLIMPEXP wxBoxPlotDatasetOptions
 {
 public:
     wxBoxPlotDatasetOptions();

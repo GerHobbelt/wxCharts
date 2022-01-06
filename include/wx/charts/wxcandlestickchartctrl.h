@@ -32,7 +32,7 @@
 /**
     \ingroup chartclasses
 */
-class wxCandlestickChartCtrl : public wxChartCtrl
+class WXCHARTS_DLLIMPEXP wxCandlestickChartCtrl : public wxChartCtrl
 {
 public:
     /// Constructor.

@@ -33,7 +33,7 @@
 /**
     \ingroup chartclasses
 */
-class wxAreaChartOptions : public wxChartOptions
+class WXCHARTS_DLLIMPEXP wxAreaChartOptions : public wxChartOptions
 {
 public:
     /// Smart pointer typedef.

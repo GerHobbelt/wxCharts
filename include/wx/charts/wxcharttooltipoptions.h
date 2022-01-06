@@ -30,7 +30,7 @@
 #include <wx/font.h>
 
 /// The options for the wxChartTooltip element.
-class wxChartTooltipOptions
+class WXCHARTS_DLLIMPEXP wxChartTooltipOptions
 {
 public:
     /// Constructs a wxChartTooltipOptions instance.

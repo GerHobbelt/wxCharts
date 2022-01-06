@@ -46,7 +46,7 @@
 /// A column chart.
 
 /// \ingroup chartclasses
-class wxColumnChart : public wxChart
+class WXCHARTS_DLLIMPEXP wxColumnChart : public wxChart
 {
 public:
     wxColumnChart(wxChartsCategoricalData::ptr &data, const wxSize &size);

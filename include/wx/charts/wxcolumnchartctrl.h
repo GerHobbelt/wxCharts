@@ -42,7 +42,7 @@
 /// A control that displays a column chart.
 
 /// \ingroup chartclasses
-class wxColumnChartCtrl : public wxChartCtrl
+class WXCHARTS_DLLIMPEXP wxColumnChartCtrl : public wxChartCtrl
 {
 public:
     /// Constructs a wxColumnChartCtrl control.

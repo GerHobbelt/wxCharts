@@ -33,7 +33,7 @@
 /// This class is used to display a rectangle on a chart.
 
 /// \ingroup elementclasses
-class wxChartsRectangle : public wxChartsElement
+class WXCHARTS_DLLIMPEXP wxChartsRectangle : public wxChartsElement
 {
 public:
     /// Constructs a wxChartsRectangle element.

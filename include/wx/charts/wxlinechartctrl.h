@@ -43,7 +43,7 @@
 /// A control that displays a line chart.
 
 /// \ingroup chartclasses
-class wxLineChartCtrl : public wxChartCtrl
+class WXCHARTS_DLLIMPEXP wxLineChartCtrl : public wxChartCtrl
 {
 public:
     /// Constructs a wxLineChartCtrl control.

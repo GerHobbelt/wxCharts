@@ -27,7 +27,7 @@
 
 #include "wxchartstheme.h"
 
-class wxChartsPrecisionTheme : public wxChartsTheme
+class WXCHARTS_DLLIMPEXP wxChartsPrecisionTheme : public wxChartsTheme
 {
 public:
     wxChartsPrecisionTheme();

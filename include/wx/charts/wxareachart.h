@@ -43,7 +43,7 @@
 #include <wx/sharedptr.h>
 
 /// \ingroup dataclasses
-class wxAreaChartDataset
+class WXCHARTS_DLLIMPEXP wxAreaChartDataset
 {
 public:
     /// Smart pointer typedef.
@@ -63,7 +63,7 @@ private:
 /// Data for the wxAreaChartCtrl control.
 
 /// \ingroup dataclasses
-class wxAreaChartData
+class WXCHARTS_DLLIMPEXP wxAreaChartData
 {
 public:
     /// Constructs a wxAreaChartData instance.
@@ -83,7 +83,7 @@ private:
 /**
     \ingroup chartclasses
 */
-class wxAreaChart : public wxChart
+class WXCHARTS_DLLIMPEXP wxAreaChart : public wxChart
 {
 public:
     /// Constructor.

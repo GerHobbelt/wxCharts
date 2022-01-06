@@ -31,7 +31,7 @@
 /// A control that displays an open-high-low-close chart.
 
 /// \ingroup chartclasses
-class wxOHLCChartCtrl : public wxChartCtrl
+class WXCHARTS_DLLIMPEXP wxOHLCChartCtrl : public wxChartCtrl
 {
 public:
     /// Constructs a wxOHLCChartCtrl control.

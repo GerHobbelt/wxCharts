@@ -27,7 +27,7 @@
 
 #include "wxchart_dlimpexp.h"
 
-class wxChartsCategoricalDataObserver
+class WXCHARTS_DLLIMPEXP wxChartsCategoricalDataObserver
 {
 };
 

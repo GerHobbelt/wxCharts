@@ -39,7 +39,7 @@
 /// as that requires a graphics context. The code
 /// that uses this class needs to set and update 
 /// the width and height.
-class wxChartsLabel : public wxChartsElement
+class WXCHARTS_DLLIMPEXP wxChartsLabel : public wxChartsElement
 {
 public:
     /// Constructs a wxChartsLabel element. The width
@@ -54,6 +54,11 @@ public:
     /// @param options The settings to be used for the label.
     wxChartsLabel(const wxString &text, wxDouble width,
         wxDouble height, const wxChartsLabelOptions &options);
+
+#if !defined(WXCHARTS_STATICLIB) && defined(_MSC_VER)
+	// MSVC error fix. 
+	wxChartsLabel() = default;
+#endif
 
 public:
     bool operator==(const wxChartsLabel & rhs)

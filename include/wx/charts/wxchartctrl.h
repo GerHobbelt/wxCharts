@@ -34,7 +34,7 @@
 /// of little use for users of these classes. The base class
 /// is there to make implementation of chart controls easier.
 /// \ingroup chartclasses
-class wxChartCtrl : public wxControl
+class WXCHARTS_DLLIMPEXP wxChartCtrl : public wxControl
 {
 public:
     /// Constructs a wxChartCtrl control.

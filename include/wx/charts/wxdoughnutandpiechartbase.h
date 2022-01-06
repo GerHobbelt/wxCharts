@@ -46,7 +46,7 @@
 #include <map>
 
 /// Data for the wxPieChartCtrl control.
-class wxPieChartData : public wxChartObservableValue<std::map<wxString, wxChartSliceData>>
+class WXCHARTS_DLLIMPEXP wxPieChartData : public wxChartObservableValue<std::map<wxString, wxChartSliceData>>
 {
 public:
     /// Smart pointer typedef.
@@ -70,7 +70,7 @@ private:
 /// a common base class. It would actually be possible to
 /// only have the doughnut classes but I usually favor
 /// ease of use over ease of implementation.
-class wxDoughnutAndPieChartBase : public wxChart
+class WXCHARTS_DLLIMPEXP wxDoughnutAndPieChartBase : public wxChart
 {
 public:
     /// Constructs a wxDoughnutAndPieChartBase

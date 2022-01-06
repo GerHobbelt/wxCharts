@@ -29,11 +29,16 @@
 #include "wxchartbackgroundoptions.h"
 
 /// The options for the wxChartsLabel element.
-class wxChartsLabelOptions : public wxObject
+class WXCHARTS_DLLIMPEXP wxChartsLabelOptions : public wxObject
 {
 public:
     wxChartsLabelOptions(const wxChartFontOptions &fontOptions,
         bool hasBackground, const wxChartBackgroundOptions &backgroundOptions);
+
+#if !defined(WXCHARTS_STATICLIB) && defined(_MSC_VER)
+	// MSVC error fix. 
+	wxChartsLabelOptions() = default;
+#endif
 
     const wxChartFontOptions& GetFontOptions() const;
     bool HasBackground() const;

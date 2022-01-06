@@ -34,7 +34,7 @@
 /// Data for the wxOHLCChartCtrl control.
 
 /// \ingroup dataclasses
-class wxOHLCChartData
+class WXCHARTS_DLLIMPEXP wxOHLCChartData
 {
 public:
     wxOHLCChartData(const wxVector<wxString> &labels, const wxVector<wxChartsOHLCData> &data);
@@ -63,7 +63,7 @@ private:
 /// An open-high-low-close chart.
 
 /// \ingroup chartclasses
-class wxOHLCChart : public wxChart
+class WXCHARTS_DLLIMPEXP wxOHLCChart : public wxChart
 {
 public:
     wxOHLCChart(const wxOHLCChartData &data, const wxSize &size);

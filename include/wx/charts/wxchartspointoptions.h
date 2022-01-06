@@ -31,7 +31,7 @@
 /// The options for the wxChartPoint element.
 
 /// \ingroup elementclasses
-class wxChartsPointOptions
+class WXCHARTS_DLLIMPEXP wxChartsPointOptions
 {
 public:
     /// Constructs a wxChartPointOptions instance.

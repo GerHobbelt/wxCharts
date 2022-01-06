@@ -31,7 +31,7 @@
 /// A doughnut chart.
 
 /// \ingroup chartclasses
-class wxDoughnutChart : public wxDoughnutAndPieChartBase
+class WXCHARTS_DLLIMPEXP wxDoughnutChart : public wxDoughnutAndPieChartBase
 {
 public:
     wxDoughnutChart(wxPieChartData::ptr data, const wxSize &size);

@@ -32,7 +32,7 @@
 /**
     \ingroup elementclasses
 */
-class wxChartsBrushOptions
+class WXCHARTS_DLLIMPEXP wxChartsBrushOptions
 {
 public:
     /// Constructor.

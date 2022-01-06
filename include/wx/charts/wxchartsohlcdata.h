@@ -34,7 +34,7 @@
 
     \ingroup dataclasses
 */
-class wxChartsOHLCData
+class WXCHARTS_DLLIMPEXP wxChartsOHLCData
 {
 public:
     wxChartsOHLCData(wxDouble open, wxDouble high, wxDouble low, wxDouble close);

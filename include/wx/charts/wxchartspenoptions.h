@@ -33,7 +33,7 @@
 /**
     \ingroup elementclasses
 */
-class wxChartsPenOptions
+class WXCHARTS_DLLIMPEXP wxChartsPenOptions
 {
 public:
     /// Constructor.

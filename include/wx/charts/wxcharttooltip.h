@@ -36,7 +36,7 @@
 /// action (e.g. hoverin with the mouse over some part
 /// of the chart). This class implements such 
 /// tooltips.
-class wxChartTooltip
+class WXCHARTS_DLLIMPEXP wxChartTooltip
 {
 public:
     /// Constructs a new wxChartTooltip instance.

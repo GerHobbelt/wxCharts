@@ -29,7 +29,7 @@
 #include <wx/colour.h>
 
 /// The options for the wxChartBackground class.
-class wxChartBackgroundOptions
+class WXCHARTS_DLLIMPEXP wxChartBackgroundOptions
 {
 public:
     wxChartBackgroundOptions(const wxColor &color, wxDouble cornerRadius);

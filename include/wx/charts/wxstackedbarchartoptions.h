@@ -31,7 +31,7 @@
 /// The options for the wxStackedBarChartCtrl control.
 
 /// \ingroup chartclasses
-class wxStackedBarChartOptions : public wxChartOptions
+class WXCHARTS_DLLIMPEXP wxStackedBarChartOptions : public wxChartOptions
 {
 public:
     /// Constructs a wxStackedBarChartOptions instance.

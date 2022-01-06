@@ -105,7 +105,7 @@ enum wxChartsAxisValueMode
 /// The options for the wxChartsAxis element.
 
 /// \ingroup elementclassess
-class wxChartsAxisOptions
+class WXCHARTS_DLLIMPEXP wxChartsAxisOptions
 {
 public:
     /// Constructs a new wxChartsAxisOptions

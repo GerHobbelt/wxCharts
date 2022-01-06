@@ -31,7 +31,7 @@
 /// Identifier for a dataset.
 
 /// \ingroup dataclasses
-class wxChartsDatasetId
+class WXCHARTS_DLLIMPEXP wxChartsDatasetId
 {
 public:
     wxChartsDatasetId();

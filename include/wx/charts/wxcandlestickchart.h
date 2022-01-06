@@ -34,7 +34,7 @@
 /// Data for the wxCandlestickChartCtrl control.
 
 /// \ingroup dataclasses
-class wxCandlestickChartData
+class WXCHARTS_DLLIMPEXP wxCandlestickChartData
 {
 public:
     wxCandlestickChartData(const wxVector<wxString> &labels, const wxVector<wxChartsOHLCData> &data);
@@ -64,7 +64,7 @@ private:
 /**
     \ingroup chartclasses
 */
-class wxCandlestickChart : public wxChart
+class WXCHARTS_DLLIMPEXP wxCandlestickChart : public wxChart
 {
 public:
     /// Constructor.

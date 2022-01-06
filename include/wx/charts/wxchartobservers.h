@@ -29,14 +29,14 @@
 #include <wx/vector.h>
 
 template<typename T>
-class wxChartValueObserver
+class WXCHARTS_DLLIMPEXP wxChartValueObserver
 {
 public:
     virtual void OnUpdate(const T &value) = 0;
 };
 
 template<typename T>
-class wxChartObservableValue
+class WXCHARTS_DLLIMPEXP wxChartObservableValue
 {
 public:
     wxChartObservableValue() {};

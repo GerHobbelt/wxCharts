@@ -35,7 +35,7 @@
 /// A stacked bar chart.
 
 /// \ingroup chartclasses
-class wxStackedBarChart : public wxChart
+class WXCHARTS_DLLIMPEXP wxStackedBarChart : public wxChart
 {
 public:
     wxStackedBarChart(wxChartsCategoricalData::ptr &data, const wxSize &size);

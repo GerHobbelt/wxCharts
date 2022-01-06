@@ -44,7 +44,7 @@
 /// This class represents an axis.
 
 /// \ingroup elementclasses
-class wxChartsAxis : public wxChartsElement
+class WXCHARTS_DLLIMPEXP wxChartsAxis : public wxChartsElement
 {
 public:
     /// Smart pointer typedef.

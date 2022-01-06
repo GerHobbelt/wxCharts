@@ -31,7 +31,7 @@
 /// Options for the wxChartsCircle class.
 
 /// \ingroup elementclasses
-class wxChartsCircleOptions
+class WXCHARTS_DLLIMPEXP wxChartsCircleOptions
 {
 public:
     /// Constructs a wxChartsCircleOptions instance.

@@ -32,7 +32,7 @@
 /// The data associated with a slice in some charts like the pie and doughnut charts.
 
 /// \ingroup dataclasses
-class wxChartSliceData
+class WXCHARTS_DLLIMPEXP wxChartSliceData
 {
 public:
     /// Constructs a wxChartSliceData instance.

@@ -31,7 +31,7 @@
 /// Identifier for a theme.
 
 /// \ingroup themeclasses
-class wxChartsThemeId
+class WXCHARTS_DLLIMPEXP wxChartsThemeId
 {
 public:
     wxChartsThemeId();

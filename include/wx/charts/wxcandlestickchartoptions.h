@@ -32,7 +32,7 @@
 /// The options for the wxCandlestickChartCtrl control.
 
 /// \ingroup chartclasses
-class wxCandlestickChartOptions : public wxChartOptions
+class WXCHARTS_DLLIMPEXP wxCandlestickChartOptions : public wxChartOptions
 {
 public:
     /// Smart pointer typedef.

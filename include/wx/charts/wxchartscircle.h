@@ -32,7 +32,7 @@
 /// This class is used to draw a circle on the chart.
 
 /// \ingroup elementclasses
-class wxChartsCircle : public wxChartsElement
+class WXCHARTS_DLLIMPEXP wxChartsCircle : public wxChartsElement
 {
 public:
     wxChartsCircle(wxDouble x, wxDouble y, wxDouble radius,

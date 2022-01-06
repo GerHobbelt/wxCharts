@@ -31,7 +31,7 @@
 /// The options for the wxHistogramCtrl control.
 
 /// \ingroup chartclasses
-class wxHistogramOptions : public wxChartOptions
+class WXCHARTS_DLLIMPEXP wxHistogramOptions : public wxChartOptions
 {
 public:
     /// Constructs a wxHistogramOptions instance.

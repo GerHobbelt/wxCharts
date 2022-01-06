@@ -46,7 +46,7 @@
 /// A stacked column chart.
 
 /// \ingroup chartclasses
-class wxStackedColumnChart : public wxChart
+class WXCHARTS_DLLIMPEXP wxStackedColumnChart : public wxChart
 {
 public:
     wxStackedColumnChart(wxChartsCategoricalData::ptr &data, const wxSize &size);

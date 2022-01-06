@@ -32,7 +32,7 @@
 /// The options for the wxBubbleChartCtrl control.
 
 /// \ingroup chartclasses
-class wxBubbleChartOptions : public wxChartOptions
+class WXCHARTS_DLLIMPEXP wxBubbleChartOptions : public wxChartOptions
 {
 public:
     /// Smart pointer typedef.

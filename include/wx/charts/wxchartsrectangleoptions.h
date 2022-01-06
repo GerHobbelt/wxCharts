@@ -32,7 +32,7 @@
 /**
     \ingroup elementclasses
 */
-class wxChartsRectangleOptions
+class WXCHARTS_DLLIMPEXP wxChartsRectangleOptions
 {
 public:
     /// Constructor.

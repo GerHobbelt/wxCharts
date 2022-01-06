@@ -28,7 +28,7 @@
 #include "wxchartspenoptions.h"
 #include "wxchartsbrushoptions.h"
 
-class wxLineChartDatasetOptions
+class WXCHARTS_DLLIMPEXP wxLineChartDatasetOptions
 {
 public:
     wxLineChartDatasetOptions(const wxColor &dotColor, const wxColor &dotStrokeColor,

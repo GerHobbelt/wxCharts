@@ -31,7 +31,7 @@
 #include "wxchartsgrid.h"
 
 /// \ingroup chartclasses
-class wxCombinationChart : public wxChart
+class WXCHARTS_DLLIMPEXP wxCombinationChart : public wxChart
 {
 public:
     wxCombinationChart();

@@ -52,7 +52,7 @@ enum wxChartsLineType
 /// A line chart.
 
 /// \ingroup chartclasses
-class wxLineChart : public wxChart
+class WXCHARTS_DLLIMPEXP wxLineChart : public wxChart
 {
 public:
     wxLineChart(wxChartsCategoricalData::ptr &data, const wxChartsLineType &lineType,

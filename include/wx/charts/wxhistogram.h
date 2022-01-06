@@ -44,7 +44,7 @@
 #include <wx/scopedptr.h>
 
 /// \ingroup dataclasses
-class wxHistogramDataset
+class WXCHARTS_DLLIMPEXP wxHistogramDataset
 {
 public:
     /// Smart pointer typedef.
@@ -78,7 +78,7 @@ private:
 /// Data for the wxHistogramCtrl control.
 
 /// \ingroup dataclasses
-class wxHistogramData
+class WXCHARTS_DLLIMPEXP wxHistogramData
 {
 public:
     /// Constructs a wxHistogramData instance.
@@ -95,7 +95,7 @@ private:
 /// A histogram.
 
 /// \ingroup chartclasses
-class wxHistogram : public wxChart
+class WXCHARTS_DLLIMPEXP wxHistogram : public wxChart
 {
 public:
     wxHistogram(const wxHistogramData &data, const wxSize &size);

@@ -28,7 +28,7 @@
 #include "wxchartoptions.h"
 
 /// Options for the wxDoughnutAndPieChartBase class. 
-class wxDoughnutAndPieChartOptionsBase : public wxChartOptions
+class WXCHARTS_DLLIMPEXP wxDoughnutAndPieChartOptionsBase : public wxChartOptions
 {
 public:
     /// Constructs a wxDoughnutAndPieChartOptionsBase instance.

@@ -30,7 +30,7 @@
 /// Options that are common between the various chart types.
 
 /// \ingroup chartclasses
-class wxChartCommonOptions
+class WXCHARTS_DLLIMPEXP wxChartCommonOptions
 {
 public:
     /// Constructs a wxChartCommonOptions

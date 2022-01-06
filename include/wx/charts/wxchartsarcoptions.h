@@ -31,7 +31,7 @@
 /// Options for the wxChartsArc class.
 
 /// \ingroup elementclasses
-class wxChartsArcOptions
+class WXCHARTS_DLLIMPEXP wxChartsArcOptions
 {
 public:
     /// Constructs a wxChartsArcOptions instance.

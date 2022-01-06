@@ -38,7 +38,7 @@
 /// users of the charts, they are there for people implementing
 /// charts.
 /// \ingroup elementclasses
-class wxChartsElement
+class WXCHARTS_DLLIMPEXP wxChartsElement
 {
 public:
     /// Smart pointer typedef.

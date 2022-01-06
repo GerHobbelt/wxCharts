@@ -30,7 +30,7 @@
 /// The options for the wxCombinationChartCtrl control.
 
 /// \ingroup chartclasses
-class wxCombinationChartOptions : public wxChartOptions
+class WXCHARTS_DLLIMPEXP wxCombinationChartOptions : public wxChartOptions
 {
 };
 

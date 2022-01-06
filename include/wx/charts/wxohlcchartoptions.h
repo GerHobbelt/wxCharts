@@ -31,7 +31,7 @@
 /// The options for the wxOHLCChartCtrl control.
 
 /// \ingroup chartclasses
-class wxOHLCChartOptions : public wxChartOptions
+class WXCHARTS_DLLIMPEXP wxOHLCChartOptions : public wxChartOptions
 {
 public:
     /// Constructs a wxOHLCChartOptions instance.

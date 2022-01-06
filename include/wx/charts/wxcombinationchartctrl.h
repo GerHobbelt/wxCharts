@@ -29,7 +29,7 @@
 #include "wxcombinationchart.h"
 
 /// \ingroup chartclasses
-class wxCombinationChartCtrl : public wxChartCtrl
+class WXCHARTS_DLLIMPEXP wxCombinationChartCtrl : public wxChartCtrl
 {
 public:
     wxCombinationChartCtrl(wxWindow *parent, wxWindowID id, const wxPoint &pos = wxDefaultPosition,

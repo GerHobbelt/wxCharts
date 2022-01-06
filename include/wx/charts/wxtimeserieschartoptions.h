@@ -29,7 +29,7 @@
 #include "wxchartsgridoptions.h"
 
 /// \ingroup chartclasses
-class wxTimeSeriesChartOptions : public wxChartOptions
+class WXCHARTS_DLLIMPEXP wxTimeSeriesChartOptions : public wxChartOptions
 {
 public:
     /// Constructs a wxTimeSeriesChartOptions instance.

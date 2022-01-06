@@ -34,7 +34,7 @@
 /// Many elements display text and require
 /// font settings. This class groups all
 /// settings related to the choice of a font.
-class wxChartFontOptions
+class WXCHARTS_DLLIMPEXP wxChartFontOptions
 {
 public:
     /// Constructs a wxChartFontOptions instance.

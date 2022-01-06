@@ -31,7 +31,7 @@
 /// A control that displays a time series chart.
 
 /// \ingroup chartclasses
-class wxTimeSeriesChartCtrl : public wxChartCtrl
+class WXCHARTS_DLLIMPEXP wxTimeSeriesChartCtrl : public wxChartCtrl
 {
 public:
     wxTimeSeriesChartCtrl(wxWindow *parent, wxWindowID id,

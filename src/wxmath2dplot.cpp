@@ -37,6 +37,9 @@
 #include <sstream>
 #include <limits>
 
+#undef max
+#undef min
+
 wxMath2DPlotDataset::wxMath2DPlotDataset(
     const wxColor &lineColor,
     const wxColor &dotColor,

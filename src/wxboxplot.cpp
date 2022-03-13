@@ -59,6 +59,9 @@ wxBoxPlot::Box::Box(const wxVector<wxDouble> &data,
 {
 }
 
+#undef min
+#undef max
+
 void wxBoxPlot::Box::Draw(wxGraphicsContext &gc) const
 {
     wxGraphicsPath path = gc.CreatePath();

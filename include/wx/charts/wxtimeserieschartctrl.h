@@ -25,13 +25,15 @@
 #ifndef _WX_CHARTS_WXTIMESERIESCHARTCTRL_H_
 #define _WX_CHARTS_WXTIMESERIESCHARTCTRL_H_
 
+#include "wxcharts_export.h"
+
 #include "wxchartctrl.h"
 #include "wxtimeserieschart.h"
 
 /// A control that displays a time series chart.
 
 /// \ingroup chartclasses
-class WXCHARTS_DLLIMPEXP wxTimeSeriesChartCtrl : public wxChartCtrl
+class WXCHARTS_EXPORT wxTimeSeriesChartCtrl : public wxChartCtrl
 {
 public:
     wxTimeSeriesChartCtrl(wxWindow *parent, wxWindowID id,
@@ -42,7 +44,7 @@ public:
         const wxSize &size = wxDefaultSize, long style = 0);
 
 private:
-    wxTimeSeriesChart& GetChart() override;
+    virtual wxTimeSeriesChart& GetChart();
 
 private:
     wxTimeSeriesChart m_timeSeriesChart;

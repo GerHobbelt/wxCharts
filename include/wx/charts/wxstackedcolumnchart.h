@@ -36,6 +36,8 @@
 #ifndef _WX_CHARTS_WXSTACKEDCOLUMNCHART_H_
 #define _WX_CHARTS_WXSTACKEDCOLUMNCHART_H_
 
+#include "wxcharts_export.h"
+
 #include "wxchart.h"
 #include "wxchartscategoricaldata.h"
 #include "wxstackedcolumnchartoptions.h"
@@ -46,21 +48,21 @@
 /// A stacked column chart.
 
 /// \ingroup chartclasses
-class WXCHARTS_DLLIMPEXP wxStackedColumnChart : public wxChart
+class WXCHARTS_EXPORT wxStackedColumnChart : public wxChart
 {
 public:
     wxStackedColumnChart(wxChartsCategoricalData::ptr &data, const wxSize &size);
 
-    const wxChartCommonOptions& GetCommonOptions() const override;
+    virtual const wxChartCommonOptions& GetCommonOptions() const;
 
 private:
     static wxDouble GetCumulativeMinValue(const wxVector<wxChartsDoubleDataset::ptr>& datasets);
     static wxDouble GetCumulativeMaxValue(const wxVector<wxChartsDoubleDataset::ptr>& datasets);
 
-    void DoSetSize(const wxSize &size) override;
-    void DoFit() override;
-    void DoDraw(wxGraphicsContext &gc, bool suppressTooltips) override;
-    wxSharedPtr<wxVector<const wxChartsElement*> > GetActiveElements(const wxPoint &point) override;
+    virtual void DoSetSize(const wxSize &size);
+    virtual void DoFit();
+    virtual void DoDraw(wxGraphicsContext &gc, bool suppressTooltips);
+    virtual wxSharedPtr<wxVector<const wxChartsElement*> > GetActiveElements(const wxPoint &point);
 
 private:
     class Column : public wxChartsRectangle
@@ -75,7 +77,7 @@ private:
             const wxChartsBrushOptions &brushOptions,
             int borders);
 
-        bool HitTest(const wxPoint &point) const override;
+        virtual bool HitTest(const wxPoint &point) const;
 
         wxDouble GetValue() const;
 

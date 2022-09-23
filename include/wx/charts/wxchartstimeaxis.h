@@ -25,9 +25,11 @@
 #ifndef _WX_CHARTS_WXCHARTSTIMEAXIS_H_
 #define _WX_CHARTS_WXCHARTSTIMEAXIS_H_
 
+#include "wxcharts_export.h"
+
 #include "wxchartsaxis.h"
 
-class WXCHARTS_DLLIMPEXP wxChartsTimeAxis : public wxChartsAxis
+class WXCHARTS_EXPORT wxChartsTimeAxis : public wxChartsAxis
 {
 public:
     wxChartsTimeAxis(const std::string &id, const wxChartsAxisOptions &options);

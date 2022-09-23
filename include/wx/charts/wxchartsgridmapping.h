@@ -36,11 +36,13 @@
 #ifndef _WX_CHARTS_WXCHARTSGRIDMAPPING_H_
 #define _WX_CHARTS_WXCHARTSGRIDMAPPING_H_
 
+#include "wxcharts_export.h"
+
 #include "wxchartsaxis.h"
 #include <wx/geometry.h>
 
 /// This class maintains a mapping between points on the chart and pixels on the screen.
-class WXCHARTS_DLLIMPEXP wxChartsGridMapping
+class WXCHARTS_EXPORT wxChartsGridMapping
 {
 public:
     wxChartsGridMapping();

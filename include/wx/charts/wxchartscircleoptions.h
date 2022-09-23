@@ -25,13 +25,14 @@
 #ifndef _WX_CHARTS_WXCHARTSCIRCLEOPTIONS_H_
 #define _WX_CHARTS_WXCHARTSCIRCLEOPTIONS_H_
 
-#include "wxchart_dlimpexp.h"
+#include "wxcharts_export.h"
+
 #include <wx/colour.h>
 
 /// Options for the wxChartsCircle class.
 
 /// \ingroup elementclasses
-class WXCHARTS_DLLIMPEXP wxChartsCircleOptions
+class WXCHARTS_EXPORT wxChartsCircleOptions
 {
 public:
     /// Constructs a wxChartsCircleOptions instance.

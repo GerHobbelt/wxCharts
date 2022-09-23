@@ -25,6 +25,8 @@
 #ifndef _WX_CHARTS_WXCHARTSLABEL_H_
 #define _WX_CHARTS_WXCHARTSLABEL_H_
 
+#include "wxcharts_export.h"
+
 #include "wxchartselement.h"
 #include "wxchartslabeloptions.h"
 #include "wxchartpadding.h"
@@ -39,9 +41,11 @@
 /// as that requires a graphics context. The code
 /// that uses this class needs to set and update 
 /// the width and height.
-class WXCHARTS_DLLIMPEXP wxChartsLabel : public wxChartsElement
+class WXCHARTS_EXPORT wxChartsLabel : public wxChartsElement
 {
 public:
+    /// Default constructor
+    wxChartsLabel();
     /// Constructs a wxChartsLabel element. The width
     /// and height are set to 0.
     /// @param text The text to display.
@@ -55,17 +59,12 @@ public:
     wxChartsLabel(const wxString &text, wxDouble width,
         wxDouble height, const wxChartsLabelOptions &options);
 
-#if !defined(WXCHARTS_STATICLIB) && defined(_MSC_VER)
-	// MSVC error fix. 
-	wxChartsLabel() = default;
-#endif
-
 public:
     bool operator==(const wxChartsLabel & rhs)
     {
         return m_text == rhs.m_text;
     }
-    
+
     bool operator!=(const wxChartsLabel & rhs)
     {
         return m_text != rhs.m_text;

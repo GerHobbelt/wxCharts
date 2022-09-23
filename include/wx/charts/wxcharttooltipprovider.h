@@ -25,12 +25,13 @@
 #ifndef _WX_CHARTS_WXCHARTTOOLTIPPROVIDER_H_
 #define _WX_CHARTS_WXCHARTTOOLTIPPROVIDER_H_
 
-#include "wxchart_dlimpexp.h"
+#include "wxcharts_export.h"
+
 #include <wx/colour.h>
 #include <wx/string.h>
 
 /// Interface for the classes that are able to generate content for tooltips
-class WXCHARTS_DLLIMPEXP wxChartTooltipProvider
+class WXCHARTS_EXPORT wxChartTooltipProvider
 {
 public:
     /// Constructs a wxChartTooltipProvider instance.
@@ -57,7 +58,7 @@ public:
 /// An implementation of the wxChartTooltipProvider
 /// interface where the content is a static string
 /// passed in at construction time.
-class WXCHARTS_DLLIMPEXP wxChartTooltipProviderStatic : public wxChartTooltipProvider
+class wxChartTooltipProviderStatic : public wxChartTooltipProvider
 {
 public:
     /// Constructs a wxChartTooltipProviderStatic instance.

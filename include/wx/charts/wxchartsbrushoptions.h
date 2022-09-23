@@ -25,14 +25,15 @@
 #ifndef _WX_CHARTS_WXCHARTSBRUSHOPTIONS_H_
 #define _WX_CHARTS_WXCHARTSBRUSHOPTIONS_H_
 
-#include "wxchart_dlimpexp.h"
+#include "wxcharts_export.h"
+
 #include <wx/colour.h>
 
 /// The options for a brush.
 /**
     \ingroup elementclasses
 */
-class WXCHARTS_DLLIMPEXP wxChartsBrushOptions
+class WXCHARTS_EXPORT wxChartsBrushOptions
 {
 public:
     /// Constructor.

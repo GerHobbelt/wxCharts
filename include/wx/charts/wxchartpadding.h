@@ -25,11 +25,12 @@
 #ifndef _WX_CHARTS_WXCHARTPADDING_H_
 #define _WX_CHARTS_WXCHARTPADDING_H_
 
-#include "wxchart_dlimpexp.h"
 #include <wx/defs.h>
 
+#include "wxcharts_export.h"
+
 /// Padding options for the wxChartCtrl class.
-class WXCHARTS_DLLIMPEXP wxChartPadding
+class WXCHARTS_EXPORT wxChartPadding
 {
 public:
     /// Constructs a wxChartPadding

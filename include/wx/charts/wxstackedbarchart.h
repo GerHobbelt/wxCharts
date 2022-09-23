@@ -25,6 +25,8 @@
 #ifndef _WX_CHARTS_WXSTACKEDBARCHART_H_
 #define _WX_CHARTS_WXSTACKEDBARCHART_H_
 
+#include "wxcharts_export.h"
+
 #include "wxchart.h"
 #include "wxchartscategoricaldata.h"
 #include "wxstackedbarchartoptions.h"
@@ -35,24 +37,24 @@
 /// A stacked bar chart.
 
 /// \ingroup chartclasses
-class WXCHARTS_DLLIMPEXP wxStackedBarChart : public wxChart
+class WXCHARTS_EXPORT wxStackedBarChart : public wxChart
 {
 public:
     wxStackedBarChart(wxChartsCategoricalData::ptr &data, const wxSize &size);
     wxStackedBarChart(wxChartsCategoricalData::ptr &data,
         const wxStackedBarChartOptions &options, const wxSize &size);
 
-    const wxChartCommonOptions& GetCommonOptions() const override;
+    virtual const wxChartCommonOptions& GetCommonOptions() const;
 
 private:
     void Initialize(wxChartsCategoricalData::ptr &data);
     static wxDouble GetCumulativeMinValue(const wxVector<wxChartsDoubleDataset::ptr>& datasets);
     static wxDouble GetCumulativeMaxValue(const wxVector<wxChartsDoubleDataset::ptr>& datasets);
 
-    void DoSetSize(const wxSize &size) override;
-    void DoFit() override;
-    void DoDraw(wxGraphicsContext &gc, bool suppressTooltips) override;
-    wxSharedPtr<wxVector<const wxChartsElement*>> GetActiveElements(const wxPoint &point) override;
+    virtual void DoSetSize(const wxSize &size);
+    virtual void DoFit();
+    virtual void DoDraw(wxGraphicsContext &gc, bool suppressTooltips);
+    virtual wxSharedPtr<wxVector<const wxChartsElement*>> GetActiveElements(const wxPoint &point);
 
 private:
     class Bar : public wxChartsRectangle
@@ -67,7 +69,7 @@ private:
             const wxChartsBrushOptions &brushOptions,
             int borders);
 
-        bool HitTest(const wxPoint &point) const override;
+        virtual bool HitTest(const wxPoint &point) const;
 
         wxDouble GetValue() const;
 

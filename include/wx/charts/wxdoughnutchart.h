@@ -25,20 +25,22 @@
 #ifndef _WX_CHARTS_WXDOUGHNUTCHART_H_
 #define _WX_CHARTS_WXDOUGHNUTCHART_H_
 
+#include "wxcharts_export.h"
+
 #include "wxdoughnutandpiechartbase.h"
 #include "wxdoughnutchartoptions.h"
 
 /// A doughnut chart.
 
 /// \ingroup chartclasses
-class WXCHARTS_DLLIMPEXP wxDoughnutChart : public wxDoughnutAndPieChartBase
+class WXCHARTS_EXPORT wxDoughnutChart : public wxDoughnutAndPieChartBase
 {
 public:
     wxDoughnutChart(wxPieChartData::ptr data, const wxSize &size);
     wxDoughnutChart(wxPieChartData::ptr data, wxSharedPtr<wxDoughnutChartOptions> &options,
         const wxSize &size);
 
-    const wxChartCommonOptions& GetCommonOptions() const override;
+    virtual const wxChartCommonOptions& GetCommonOptions() const;
 
 private:
     const wxDoughnutAndPieChartOptionsBase& GetOptions() const override;

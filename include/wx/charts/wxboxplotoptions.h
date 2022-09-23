@@ -32,7 +32,7 @@
 /// The options for the wxBoxPlotCtrl control.
 
 /// \ingroup chartclasses
-class WXCHARTS_DLLIMPEXP wxBoxPlotOptions : public wxChartOptions
+class WXCHARTS_EXPORT wxBoxPlotOptions : public wxChartOptions
 {
 public:
     /// Smart pointer typedef.

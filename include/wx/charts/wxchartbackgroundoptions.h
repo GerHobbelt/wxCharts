@@ -25,11 +25,12 @@
 #ifndef _WX_CHARTS_WXCHARTBACKGROUNDOPTIONS_H_
 #define _WX_CHARTS_WXCHARTBACKGROUNDOPTIONS_H_
 
-#include "wxchart_dlimpexp.h"
+#include "wxcharts_export.h"
+
 #include <wx/colour.h>
 
 /// The options for the wxChartBackground class.
-class WXCHARTS_DLLIMPEXP wxChartBackgroundOptions
+class WXCHARTS_EXPORT wxChartBackgroundOptions
 {
 public:
     wxChartBackgroundOptions(const wxColor &color, wxDouble cornerRadius);

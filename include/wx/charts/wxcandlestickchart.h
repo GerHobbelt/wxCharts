@@ -25,7 +25,7 @@
 #ifndef _WX_CHARTS_WXCANDLESTICKCHART_H_
 #define _WX_CHARTS_WXCANDLESTICKCHART_H_
 
-#include "wxcharts_export.h"
+#include "wxchart_dlimpexp.h"
 
 #include "wxchart.h"
 #include "wxchartsohlcdata.h"

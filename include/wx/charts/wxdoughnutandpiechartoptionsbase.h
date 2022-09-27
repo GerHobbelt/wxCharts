@@ -25,7 +25,7 @@
 #ifndef _WX_CHARTS_WXDOUGHNUTANDPIECHARTOPTIONSBASE_H_
 #define _WX_CHARTS_WXDOUGHNUTANDPIECHARTOPTIONSBASE_H_
 
-#include "wxcharts_export.h"
+#include "wxchart_dlimpexp.h"
 
 #include "wxchartoptions.h"
 

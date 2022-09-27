@@ -25,7 +25,7 @@
 #ifndef _WX_CHARTS_WXCHARTSRECTANGLEOPTIONS_H_
 #define _WX_CHARTS_WXCHARTSRECTANGLEOPTIONS_H_
 
-#include "wxcharts_export.h"
+#include "wxchart_dlimpexp.h"
 
 #include "wxchartsbrushoptions.h"
 #include "wxchartspenoptions.h"

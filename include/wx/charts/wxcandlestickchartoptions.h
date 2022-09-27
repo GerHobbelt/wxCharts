@@ -25,7 +25,7 @@
 #ifndef _WX_CHARTS_WXCANDLESTICKCHARTOPTIONS_H_
 #define _WX_CHARTS_WXCANDLESTICKCHARTOPTIONS_H_
 
-#include "wxcharts_export.h"
+#include "wxchart_dlimpexp.h"
 
 #include "wxchartoptions.h"
 #include "wxchartsgridoptions.h"

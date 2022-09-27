@@ -25,7 +25,7 @@
 #ifndef _WX_CHARTS_WXCHARTSCATEGORICALDATAOBSERVER_H_
 #define _WX_CHARTS_WXCHARTSCATEGORICALDATAOBSERVER_H_
 
-#include "wxcharts_export.h"
+#include "wxchart_dlimpexp.h"
 
 class WXCHARTS_EXPORT wxChartsCategoricalDataObserver
 {

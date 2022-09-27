@@ -25,7 +25,7 @@
 #ifndef _WX_CHARTS_WXCHARTSLEGENDITEM_H_
 #define _WX_CHARTS_WXCHARTSLEGENDITEM_H_
 
-#include "wxcharts_export.h"
+#include "wxchart_dlimpexp.h"
 
 #include "wxchartslicedata.h"
 #include "wxchartsdoubledataset.h"

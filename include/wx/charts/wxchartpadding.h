@@ -27,7 +27,7 @@
 
 #include <wx/defs.h>
 
-#include "wxcharts_export.h"
+#include "wxchart_dlimpexp.h"
 
 /// Padding options for the wxChartCtrl class.
 class WXCHARTS_EXPORT wxChartPadding

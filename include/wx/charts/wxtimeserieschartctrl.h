@@ -25,7 +25,7 @@
 #ifndef _WX_CHARTS_WXTIMESERIESCHARTCTRL_H_
 #define _WX_CHARTS_WXTIMESERIESCHARTCTRL_H_
 
-#include "wxcharts_export.h"
+#include "wxchart_dlimpexp.h"
 
 #include "wxchartctrl.h"
 #include "wxtimeserieschart.h"

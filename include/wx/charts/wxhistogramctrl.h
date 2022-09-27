@@ -36,7 +36,7 @@
 #ifndef _WX_CHARTS_WXHISTOGRAMCTRL_H_
 #define _WX_CHARTS_WXHISTOGRAMCTRL_H_
 
-#include "wxcharts_export.h"
+#include "wxchart_dlimpexp.h"
 
 #include "wxchartctrl.h"
 #include "wxhistogram.h"

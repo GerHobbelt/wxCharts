@@ -36,7 +36,7 @@
 #ifndef _WX_CHARTS_WXCHARTSUTILITIES_H_
 #define _WX_CHARTS_WXCHARTSUTILITIES_H_
 
-#include "wxcharts_export.h"
+#include "wxchart_dlimpexp.h"
 
 #include "wxchartspenoptions.h"
 #include "wxchartsbrushoptions.h"

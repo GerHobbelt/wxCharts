@@ -1,5 +1,5 @@
 /*
-    Copyright (c) 2016-2017 Xavier Leclercq
+    Copyright (c) 2016-2022 Xavier Leclercq
 
     Permission is hereby granted, free of charge, to any person obtaining a
     copy of this software and associated documentation files (the "Software"),
@@ -32,7 +32,7 @@
 #include <wx/font.h>
 
 /// The options for the wxChartTooltip element.
-class WXCHARTS_EXPORT wxChartTooltipOptions
+class WXDLLIMPEXP_ISHIKO_CHARTS wxChartTooltipOptions
 {
 public:
     /// Constructs a wxChartTooltipOptions instance.

@@ -1,5 +1,5 @@
 /*
-    Copyright (c) 2016-2021 Xavier Leclercq
+    Copyright (c) 2016-2022 Xavier Leclercq
 
     Permission is hereby granted, free of charge, to any person obtaining a
     copy of this software and associated documentation files (the "Software"),
@@ -48,7 +48,7 @@
 /// A column chart.
 
 /// \ingroup chartclasses
-class WXCHARTS_EXPORT wxColumnChart : public wxChart
+class WXDLLIMPEXP_ISHIKO_CHARTS wxColumnChart : public wxChart
 {
 public:
     wxColumnChart(wxChartsCategoricalData::ptr &data, const wxSize &size);

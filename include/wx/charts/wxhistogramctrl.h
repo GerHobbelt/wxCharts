@@ -1,5 +1,5 @@
 /*
-    Copyright (c) 2018-2019 Xavier Leclercq and the wxCharts contributors.
+    Copyright (c) 2018-2022 Xavier Leclercq and the wxCharts contributors.
 
     Permission is hereby granted, free of charge, to any person obtaining a
     copy of this software and associated documentation files (the "Software"),
@@ -36,8 +36,12 @@
 #ifndef _WX_CHARTS_WXHISTOGRAMCTRL_H_
 #define _WX_CHARTS_WXHISTOGRAMCTRL_H_
 
+<<<<<<< HEAD
 #include "wxchart_dlimpexp.h"
 
+=======
+#include "dlimpexp.h"
+>>>>>>> remotes/wxIshiko-original/dev/xleclercq/build
 #include "wxchartctrl.h"
 #include "wxhistogram.h"
 #include <wx/menu.h>
@@ -45,7 +49,7 @@
 /// A control that displays a math2d plot.
 
 /// \ingroup chartclasses
-class WXCHARTS_EXPORT wxHistogramCtrl : public wxChartCtrl
+class WXDLLIMPEXP_ISHIKO_CHARTS wxHistogramCtrl : public wxChartCtrl
 {
 public:
     /// Constructs a wxHistogramCtrl control.

@@ -46,7 +46,7 @@
 /**
     \ingroup chartclasses
 */
-class WXCHARTS_EXPORT wxAreaChartCtrl : public wxChartCtrl
+class WXDLLIMPEXP_ISHIKO_CHARTS wxAreaChartCtrl : public wxChartCtrl
 {
 public:
     /// Constructor.

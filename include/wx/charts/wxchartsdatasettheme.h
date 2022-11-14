@@ -1,5 +1,5 @@
 /*
-    Copyright (c) 2019 Xavier Leclercq
+    Copyright (c) 2019-2022 Xavier Leclercq
 
     Permission is hereby granted, free of charge, to any person obtaining a
     copy of this software and associated documentation files (the "Software"),
@@ -36,7 +36,7 @@
 #include "wxstackedcolumnchartdatasetoptions.h"
 #include <wx/sharedptr.h>
 
-class WXCHARTS_EXPORT wxChartsDatasetTheme
+class WXDLLIMPEXP_ISHIKO_CHARTS wxChartsDatasetTheme
 {
 public:
     wxChartsDatasetTheme();

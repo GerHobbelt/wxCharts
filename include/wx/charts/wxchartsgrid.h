@@ -1,5 +1,5 @@
 /*
-    Copyright (c) 2016-2021 Xavier Leclercq and the wxCharts contributors.
+    Copyright (c) 2016-2022 Xavier Leclercq and the wxCharts contributors.
 
     Permission is hereby granted, free of charge, to any person obtaining a
     copy of this software and associated documentation files (the "Software"),
@@ -66,7 +66,7 @@
 ///
 /// @see wxChartsGridOptions
 /// \ingroup elementclasses
-class WXCHARTS_EXPORT wxChartsGrid : public wxChartsElement
+class WXDLLIMPEXP_ISHIKO_CHARTS wxChartsGrid : public wxChartsElement
 {
 public:
     typedef wxSharedPtr<wxChartsGrid> ptr;

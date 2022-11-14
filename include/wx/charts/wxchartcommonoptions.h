@@ -1,5 +1,5 @@
 /*
-    Copyright (c) 2016-2018 Xavier Leclercq
+    Copyright (c) 2016-2022 Xavier Leclercq
 
     Permission is hereby granted, free of charge, to any person obtaining a
     copy of this software and associated documentation files (the "Software"),
@@ -32,7 +32,7 @@
 /// Options that are common between the various chart types.
 
 /// \ingroup chartclasses
-class WXCHARTS_EXPORT wxChartCommonOptions
+class WXDLLIMPEXP_ISHIKO_CHARTS wxChartCommonOptions
 {
 public:
     /// Constructs a wxChartCommonOptions

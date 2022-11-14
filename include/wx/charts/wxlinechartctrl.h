@@ -1,5 +1,5 @@
 /*
-    Copyright (c) 2016-2019 Xavier Leclercq
+    Copyright (c) 2016-2022 Xavier Leclercq
 
     Permission is hereby granted, free of charge, to any person obtaining a
     copy of this software and associated documentation files (the "Software"),
@@ -36,8 +36,12 @@
 #ifndef _WX_CHARTS_WXLINECHARTCTRL_H_
 #define _WX_CHARTS_WXLINECHARTCTRL_H_
 
+<<<<<<< HEAD
 #include "wxchart_dlimpexp.h"
 
+=======
+#include "dlimpexp.h"
+>>>>>>> remotes/wxIshiko-original/dev/xleclercq/build
 #include "wxchartctrl.h"
 #include "wxlinechart.h"
 #include <wx/menu.h>
@@ -45,7 +49,7 @@
 /// A control that displays a line chart.
 
 /// \ingroup chartclasses
-class WXCHARTS_EXPORT wxLineChartCtrl : public wxChartCtrl
+class WXDLLIMPEXP_ISHIKO_CHARTS wxLineChartCtrl : public wxChartCtrl
 {
 public:
     /// Constructs a wxLineChartCtrl control.

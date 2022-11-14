@@ -1,5 +1,5 @@
 /*
-    Copyright (c) 2016-2019 Xavier Leclercq
+    Copyright (c) 2016-2022 Xavier Leclercq
 
     Permission is hereby granted, free of charge, to any person obtaining a
     copy of this software and associated documentation files (the "Software"),
@@ -30,7 +30,7 @@
 #include "wxchartslegendlineoptions.h"
 
 /// Options for the wxChartsLegendCtrl control.
-class WXCHARTS_EXPORT wxChartsLegendOptions
+class WXDLLIMPEXP_ISHIKO_CHARTS wxChartsLegendOptions
 {
 public:
     /// Constructs a wxChartsLegendOptions instance.

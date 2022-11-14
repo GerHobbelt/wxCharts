@@ -1,5 +1,5 @@
 /*
-    Copyright (c) 2017-2021 Xavier Leclercq
+    Copyright (c) 2017-2022 Xavier Leclercq
 
     Permission is hereby granted, free of charge, to any person obtaining a
     copy of this software and associated documentation files (the "Software"),
@@ -45,7 +45,7 @@
 #include <wx/sharedptr.h>
 
 /// \ingroup dataclasses
-class WXCHARTS_EXPORT wxAreaChartDataset
+class WXDLLIMPEXP_ISHIKO_CHARTS wxAreaChartDataset
 {
 public:
     /// Smart pointer typedef.
@@ -65,7 +65,7 @@ private:
 /// Data for the wxAreaChartCtrl control.
 
 /// \ingroup dataclasses
-class WXCHARTS_EXPORT wxAreaChartData
+class WXDLLIMPEXP_ISHIKO_CHARTS wxAreaChartData
 {
 public:
     /// Constructs a wxAreaChartData instance.
@@ -85,7 +85,7 @@ private:
 /**
     \ingroup chartclasses
 */
-class WXCHARTS_EXPORT wxAreaChart : public wxChart
+class WXDLLIMPEXP_ISHIKO_CHARTS wxAreaChart : public wxChart
 {
 public:
     /// Constructor.

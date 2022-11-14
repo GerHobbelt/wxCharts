@@ -1,5 +1,5 @@
 /*
-    Copyright (c) 2016-2021 Xavier Leclercq
+    Copyright (c) 2016-2022 Xavier Leclercq
 
     Permission is hereby granted, free of charge, to any person obtaining a
     copy of this software and associated documentation files (the "Software"),
@@ -36,7 +36,7 @@
 /// Data for the wxCandlestickChartCtrl control.
 
 /// \ingroup dataclasses
-class WXCHARTS_EXPORT wxCandlestickChartData
+class WXDLLIMPEXP_ISHIKO_CHARTS wxCandlestickChartData
 {
 public:
     wxCandlestickChartData(const wxVector<wxString> &labels, const wxVector<wxChartsOHLCData> &data);
@@ -66,7 +66,7 @@ private:
 /**
     \ingroup chartclasses
 */
-class WXCHARTS_EXPORT wxCandlestickChart : public wxChart
+class WXDLLIMPEXP_ISHIKO_CHARTS wxCandlestickChart : public wxChart
 {
 public:
     /// Constructor.

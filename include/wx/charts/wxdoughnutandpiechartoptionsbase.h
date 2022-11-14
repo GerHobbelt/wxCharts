@@ -1,5 +1,5 @@
 /*
-    Copyright (c) 2016-2017 Xavier Leclercq
+    Copyright (c) 2016-2022 Xavier Leclercq
 
     Permission is hereby granted, free of charge, to any person obtaining a
     copy of this software and associated documentation files (the "Software"),
@@ -25,12 +25,16 @@
 #ifndef _WX_CHARTS_WXDOUGHNUTANDPIECHARTOPTIONSBASE_H_
 #define _WX_CHARTS_WXDOUGHNUTANDPIECHARTOPTIONSBASE_H_
 
+<<<<<<< HEAD
 #include "wxchart_dlimpexp.h"
 
+=======
+#include "dlimpexp.h"
+>>>>>>> remotes/wxIshiko-original/dev/xleclercq/build
 #include "wxchartoptions.h"
 
 /// Options for the wxDoughnutAndPieChartBase class. 
-class WXCHARTS_EXPORT wxDoughnutAndPieChartOptionsBase : public wxChartOptions
+class WXDLLIMPEXP_ISHIKO_CHARTS wxDoughnutAndPieChartOptionsBase : public wxChartOptions
 {
 public:
     /// Constructs a wxDoughnutAndPieChartOptionsBase instance.

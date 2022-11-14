@@ -1,5 +1,5 @@
 /*
-    Copyright (c) 2016-2021 Xavier Leclercq
+    Copyright (c) 2016-2022 Xavier Leclercq
 
     Permission is hereby granted, free of charge, to any person obtaining a
     copy of this software and associated documentation files (the "Software"),
@@ -34,7 +34,7 @@
 /// This class is used to draw a circle on the chart.
 
 /// \ingroup elementclasses
-class WXCHARTS_EXPORT wxChartsCircle : public wxChartsElement
+class WXDLLIMPEXP_ISHIKO_CHARTS wxChartsCircle : public wxChartsElement
 {
 public:
     wxChartsCircle(wxDouble x, wxDouble y, wxDouble radius,

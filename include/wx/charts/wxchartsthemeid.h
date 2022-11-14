@@ -1,5 +1,5 @@
 /*
-    Copyright (c) 2019 Xavier Leclercq
+    Copyright (c) 2019-2022 Xavier Leclercq
 
     Permission is hereby granted, free of charge, to any person obtaining a
     copy of this software and associated documentation files (the "Software"),
@@ -32,7 +32,7 @@
 /// Identifier for a theme.
 
 /// \ingroup themeclasses
-class WXCHARTS_EXPORT wxChartsThemeId
+class WXDLLIMPEXP_ISHIKO_CHARTS wxChartsThemeId
 {
 public:
     wxChartsThemeId();

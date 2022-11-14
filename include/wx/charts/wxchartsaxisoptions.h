@@ -1,5 +1,5 @@
 /*
-    Copyright (c) 2016-2019 Xavier Leclercq
+    Copyright (c) 2016-2022 Xavier Leclercq
 
     Permission is hereby granted, free of charge, to any person obtaining a
     copy of this software and associated documentation files (the "Software"),
@@ -107,7 +107,7 @@ enum wxChartsAxisValueMode
 /// The options for the wxChartsAxis element.
 
 /// \ingroup elementclassess
-class WXCHARTS_EXPORT wxChartsAxisOptions
+class WXDLLIMPEXP_ISHIKO_CHARTS wxChartsAxisOptions
 {
 public:
     /// Constructs a new wxChartsAxisOptions

@@ -1,5 +1,5 @@
 /*
-    Copyright (c) 2016-2019 Xavier Leclercq
+    Copyright (c) 2016-2022 Xavier Leclercq
 
     Permission is hereby granted, free of charge, to any person obtaining a
     copy of this software and associated documentation files (the "Software"),
@@ -46,7 +46,7 @@
 #include <wx/graphics.h>
 
 /// This class contains a set of static utility functions.
-class WXCHARTS_EXPORT wxChartsUtilities
+class WXDLLIMPEXP_ISHIKO_CHARTS wxChartsUtilities
 {
 public:
     /// Creates a pen from a wxChartsPenOptions instance.

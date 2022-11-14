@@ -1,5 +1,5 @@
 /*
-    Copyright (c) 2016-2019 Xavier Leclercq
+    Copyright (c) 2016-2022 Xavier Leclercq
 
     Permission is hereby granted, free of charge, to any person obtaining a
     copy of this software and associated documentation files (the "Software"),
@@ -47,7 +47,7 @@ enum wxChartsAxisScale
 };
 
 /// \ingroup elementclasses
-class WXCHARTS_EXPORT wxChartsNumericalAxis : public wxChartsAxis
+class WXDLLIMPEXP_ISHIKO_CHARTS wxChartsNumericalAxis : public wxChartsAxis
 {
 public:
     /// Constructs a wxChartsNumericalAxis axis. The

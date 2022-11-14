@@ -1,5 +1,5 @@
 /*
-    Copyright (c) 2016-2019 Xavier Leclercq
+    Copyright (c) 2016-2022 Xavier Leclercq
 
     Permission is hereby granted, free of charge, to any person obtaining a
     copy of this software and associated documentation files (the "Software"),
@@ -34,7 +34,7 @@
 
 /// It can be used wherever a single line of text is needed
 /// with a single colored square at the start of the line.
-class WXCHARTS_EXPORT wxChartsLegendLine : public wxChartsElement
+class WXDLLIMPEXP_ISHIKO_CHARTS wxChartsLegendLine : public wxChartsElement
 {
 public:
     /// Constructs a wxChartsLegendLine element.

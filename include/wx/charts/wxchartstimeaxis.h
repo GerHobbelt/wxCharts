@@ -1,5 +1,5 @@
 /*
-    Copyright (c) 2017-2019 Xavier Leclercq
+    Copyright (c) 2017-2022 Xavier Leclercq
 
     Permission is hereby granted, free of charge, to any person obtaining a
     copy of this software and associated documentation files (the "Software"),
@@ -29,7 +29,7 @@
 
 #include "wxchartsaxis.h"
 
-class WXCHARTS_EXPORT wxChartsTimeAxis : public wxChartsAxis
+class WXDLLIMPEXP_ISHIKO_CHARTS wxChartsTimeAxis : public wxChartsAxis
 {
 public:
     wxChartsTimeAxis(const std::string &id, const wxChartsAxisOptions &options);

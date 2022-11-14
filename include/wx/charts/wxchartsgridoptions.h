@@ -1,5 +1,5 @@
 /*
-    Copyright (c) 2016-2019 Xavier Leclercq
+    Copyright (c) 2016-2022 Xavier Leclercq
 
     Permission is hereby granted, free of charge, to any person obtaining a
     copy of this software and associated documentation files (the "Software"),
@@ -31,7 +31,7 @@
 #include <wx/colour.h>
 
 /// The options for the grid lines of wxChartsGrid element.
-class WXCHARTS_EXPORT wxChartsGridLineOptions
+class WXDLLIMPEXP_ISHIKO_CHARTS wxChartsGridLineOptions
 {
 public:
     /// Constructs a wxChartsGridOptions
@@ -82,7 +82,7 @@ private:
 };
 
 /// The options for the wxChartsGrid element.
-class WXCHARTS_EXPORT wxChartsGridOptions
+class WXDLLIMPEXP_ISHIKO_CHARTS wxChartsGridOptions
 {
 public:
     /// Constructs a wxChartsGridOptions instance with

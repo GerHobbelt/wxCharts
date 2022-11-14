@@ -1,5 +1,5 @@
 /*
-    Copyright (c) 2016-2019 Xavier Leclercq
+    Copyright (c) 2016-2022 Xavier Leclercq
 
     Permission is hereby granted, free of charge, to any person obtaining a
     copy of this software and associated documentation files (the "Software"),
@@ -41,7 +41,7 @@
 /// as that requires a graphics context. The code
 /// that uses this class needs to set and update 
 /// the width and height.
-class WXCHARTS_EXPORT wxChartsLabel : public wxChartsElement
+class WXDLLIMPEXP_ISHIKO_CHARTS wxChartsLabel : public wxChartsElement
 {
 public:
     /// Default constructor

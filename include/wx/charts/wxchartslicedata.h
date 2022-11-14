@@ -1,5 +1,5 @@
 /*
-    Copyright (c) 2016-2018 Xavier Leclercq
+    Copyright (c) 2016-2022 Xavier Leclercq
 
     Permission is hereby granted, free of charge, to any person obtaining a
     copy of this software and associated documentation files (the "Software"),
@@ -33,7 +33,7 @@
 /// The data associated with a slice in some charts like the pie and doughnut charts.
 
 /// \ingroup dataclasses
-class WXCHARTS_EXPORT wxChartSliceData
+class WXDLLIMPEXP_ISHIKO_CHARTS wxChartSliceData
 {
 public:
     /// Constructs a wxChartSliceData instance.

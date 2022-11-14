@@ -1,5 +1,5 @@
 /*
-    Copyright (c) 2017-2019 Xavier Leclercq
+    Copyright (c) 2017-2022 Xavier Leclercq
 
     Permission is hereby granted, free of charge, to any person obtaining a
     copy of this software and associated documentation files (the "Software"),
@@ -35,7 +35,7 @@
 
 /// The wxBarChartCtrl, wxColumnChartCtrl, wxStackedBarChartCtrl and wxStackedColumnChartCtrl use this class.
 /// \ingroup dataclasses
-class WXCHARTS_EXPORT wxChartsDoubleDataset : public wxChartsDataset
+class WXDLLIMPEXP_ISHIKO_CHARTS wxChartsDoubleDataset : public wxChartsDataset
 {
 public:
     /// Smart pointer typedef.

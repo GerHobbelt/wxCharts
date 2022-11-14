@@ -1,5 +1,5 @@
 /*
-    Copyright (c) 2016-2021 Xavier Leclercq
+    Copyright (c) 2016-2022 Xavier Leclercq
 
     Permission is hereby granted, free of charge, to any person obtaining a
     copy of this software and associated documentation files (the "Software"),
@@ -31,7 +31,7 @@
 #include <wx/string.h>
 
 /// Interface for the classes that are able to generate content for tooltips
-class WXCHARTS_EXPORT wxChartTooltipProvider
+class WXDLLIMPEXP_ISHIKO_CHARTS wxChartTooltipProvider
 {
 public:
     /// Constructs a wxChartTooltipProvider instance.

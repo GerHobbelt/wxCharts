@@ -1,5 +1,5 @@
 /*
-    Copyright (c) 2016-2021 Xavier Leclercq
+    Copyright (c) 2016-2022 Xavier Leclercq
 
     Permission is hereby granted, free of charge, to any person obtaining a
     copy of this software and associated documentation files (the "Software"),
@@ -42,7 +42,7 @@
 #include <wx/geometry.h>
 
 /// This class maintains a mapping between points on the chart and pixels on the screen.
-class WXCHARTS_EXPORT wxChartsGridMapping
+class WXDLLIMPEXP_ISHIKO_CHARTS wxChartsGridMapping
 {
 public:
     wxChartsGridMapping();

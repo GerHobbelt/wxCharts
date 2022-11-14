@@ -1,5 +1,5 @@
 /*
-    Copyright (c) 2016-2017 Xavier Leclercq
+    Copyright (c) 2016-2022 Xavier Leclercq
 
     Permission is hereby granted, free of charge, to any person obtaining a
     copy of this software and associated documentation files (the "Software"),
@@ -36,7 +36,7 @@
 /// of little use for users of these classes. The base class
 /// is there to make implementation of chart controls easier.
 /// \ingroup chartclasses
-class WXCHARTS_EXPORT wxChartCtrl : public wxControl
+class WXDLLIMPEXP_ISHIKO_CHARTS wxChartCtrl : public wxControl
 {
 public:
     /// Constructs a wxChartCtrl control.

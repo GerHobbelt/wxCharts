@@ -1,5 +1,5 @@
 /*
-    Copyright (c) 2016-2021 Xavier Leclercq
+    Copyright (c) 2016-2022 Xavier Leclercq
 
     Permission is hereby granted, free of charge, to any person obtaining a
     copy of this software and associated documentation files (the "Software"),
@@ -35,7 +35,7 @@
 /// This class is used to display a rectangle on a chart.
 
 /// \ingroup elementclasses
-class WXCHARTS_EXPORT wxChartsRectangle : public wxChartsElement
+class WXDLLIMPEXP_ISHIKO_CHARTS wxChartsRectangle : public wxChartsElement
 {
 public:
     /// Constructs a wxChartsRectangle element.

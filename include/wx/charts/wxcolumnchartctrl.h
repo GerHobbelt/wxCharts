@@ -1,5 +1,5 @@
 /*
-    Copyright (c) 2016-2018 Xavier Leclercq
+    Copyright (c) 2016-2022 Xavier Leclercq
 
     Permission is hereby granted, free of charge, to any person obtaining a
     copy of this software and associated documentation files (the "Software"),
@@ -44,7 +44,7 @@
 /// A control that displays a column chart.
 
 /// \ingroup chartclasses
-class WXCHARTS_EXPORT wxColumnChartCtrl : public wxChartCtrl
+class WXDLLIMPEXP_ISHIKO_CHARTS wxColumnChartCtrl : public wxChartCtrl
 {
 public:
     /// Constructs a wxColumnChartCtrl control.

@@ -1,5 +1,5 @@
 /*
-    Copyright (c) 2016-2019 Xavier Leclercq
+    Copyright (c) 2016-2022 Xavier Leclercq
 
     Permission is hereby granted, free of charge, to any person obtaining a
     copy of this software and associated documentation files (the "Software"),
@@ -25,15 +25,19 @@
 #ifndef _WX_CHARTS_WXSTACKEDCOLUMNCHARTOPTIONS_H_
 #define _WX_CHARTS_WXSTACKEDCOLUMNCHARTOPTIONS_H_
 
+<<<<<<< HEAD
 #include "wxchart_dlimpexp.h"
 
+=======
+#include "dlimpexp.h"
+>>>>>>> remotes/wxIshiko-original/dev/xleclercq/build
 #include "wxchartoptions.h"
 #include "wxchartsgridoptions.h"
 
 /// The options for the wxStackedColumnChartCtrl control.
 
 /// \ingroup chartclasses
-class WXCHARTS_EXPORT wxStackedColumnChartOptions : public wxChartOptions
+class WXDLLIMPEXP_ISHIKO_CHARTS wxStackedColumnChartOptions : public wxChartOptions
 {
 public:
     /// Constructs a wxStackedColumnChartOptions instance.

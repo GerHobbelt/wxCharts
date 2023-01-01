@@ -31,7 +31,7 @@
 /// The options for the wxScatterPlotCtrl control.
 
 /// \ingroup chartclasses
-class WXCHARTS_DLLIMPEXP wxScatterPlotOptions : public wxChartOptions
+class WXCHARTS_EXPORT wxScatterPlotOptions : public wxChartOptions
 {
 public:
     /// Constructs a wxScatterPlotOptions instance.

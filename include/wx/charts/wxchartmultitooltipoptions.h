@@ -28,7 +28,7 @@
 #include "wxchartfontoptions.h"
 
 /// The options for the wxChartMultiTooltip element.
-class WXCHARTS_DLLIMPEXP wxChartMultiTooltipOptions
+class WXCHARTS_EXPORT wxChartMultiTooltipOptions
 {
 public:
     /// Constructs a wxChartMultiTooltipOptions instance.

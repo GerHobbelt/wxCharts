@@ -42,7 +42,7 @@
 /// A control that displays a radar chart.
 
 /// \ingroup chartclasses
-class WXCHARTS_DLLIMPEXP wxRadarChartCtrl : public wxChartCtrl
+class WXCHARTS_EXPORT wxRadarChartCtrl : public wxChartCtrl
 {
 public:
     /// Constructs a wxRadarChartCtrl control.

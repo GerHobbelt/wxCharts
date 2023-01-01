@@ -30,7 +30,7 @@
 /// The options for the wxPieChartCtrl control.
 
 /// \ingroup chartclasses
-class WXCHARTS_DLLIMPEXP wxPieChartOptions : public wxDoughnutAndPieChartOptionsBase
+class WXCHARTS_EXPORT wxPieChartOptions : public wxDoughnutAndPieChartOptionsBase
 {
 public:
     /// Constructs a wxPieChartOptions

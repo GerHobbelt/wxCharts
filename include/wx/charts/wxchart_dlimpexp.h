@@ -1,5 +1,5 @@
 /*
-    Copyright (c) 2022 Xavier Leclercq
+    Copyright (c) 2024 Xavier Leclercq
 
     Permission is hereby granted, free of charge, to any person obtaining a
     copy of this software and associated documentation files (the "Software"),
@@ -107,4 +107,6 @@
     #define WXCHARTS_DLLIMPEXP_FWD      WXCHARTS_DLLIMPEXP
 #endif
 
-#endif /* _WX_DLIMPEXP_H_ */
+#define WXDLLIMPEXP_ISHIKO_CHARTS WXCHARTS_EXPORT
+
+#endif /* _WX_CHARTS_DLIMPEXP_H_ */

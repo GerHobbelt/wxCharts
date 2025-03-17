@@ -1,5 +1,5 @@
 /*
-    Copyright (c) 2018-2022 Xavier Leclercq and the wxCharts contributors.
+    Copyright (c) 2018-2024 Xavier Leclercq and the wxCharts contributors.
 
     Permission is hereby granted, free of charge, to any person obtaining a
     copy of this software and associated documentation files (the "Software"),
@@ -36,12 +36,8 @@
 #ifndef _WX_CHARTS_WXHISTOGRAM_H_
 #define _WX_CHARTS_WXHISTOGRAM_H_
 
-<<<<<<< HEAD
 #include "wxchart_dlimpexp.h"
 
-=======
-#include "dlimpexp.h"
->>>>>>> remotes/wxIshiko-original/dev/xleclercq/build
 #include "wxchart.h"
 #include "wxhistogramoptions.h"
 #include "wxchartsgrid.h"

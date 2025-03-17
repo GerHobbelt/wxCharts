@@ -1,5 +1,5 @@
 /*
-    Copyright (c) 2016-2022 Xavier Leclercq
+    Copyright (c) 2016-2024 Xavier Leclercq
 
     Permission is hereby granted, free of charge, to any person obtaining a
     copy of this software and associated documentation files (the "Software"),
@@ -46,6 +46,8 @@ public:
     /// @return The options.
     virtual const wxChartCommonOptions& GetCommonOptions() const = 0;
 
+    wxRect GetDrawingArea() const;
+
     void SetSize(const wxSize &size);
     void Draw(wxGraphicsContext &gc);
     void ActivateElementsAt(const wxPoint &point);
@@ -61,6 +63,8 @@ private:
     virtual wxSharedPtr<wxVector<const wxChartsElement*>> GetActiveElements(const wxPoint &point) = 0;
 
 private:
+    wxPoint m_position;
+    wxSize m_size;
     bool m_needsFit;
     wxSharedPtr<wxVector<const wxChartsElement*>> m_activeElements;
 };

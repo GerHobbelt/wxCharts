@@ -36,6 +36,8 @@
 #ifndef _WX_CHARTS_WXMATH2DPLOTCTRL_H_
 #define _WX_CHARTS_WXMATH2DPLOTCTRL_H_
 
+#include "wxchart_dlimpexp.h"
+
 #include "wxchartctrl.h"
 #include "wxmath2dplot.h"
 #include <wx/menu.h>

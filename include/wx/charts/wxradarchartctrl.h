@@ -36,6 +36,8 @@
 #ifndef _WX_CHARTS_WXRADARCHARTCTRL_H_
 #define _WX_CHARTS_WXRADARCHARTCTRL_H_
 
+#include "wxchart_dlimpexp.h"
+
 #include "wxchartctrl.h"
 #include "wxradarchart.h"
 

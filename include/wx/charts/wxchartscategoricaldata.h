@@ -25,7 +25,8 @@
 #ifndef _WX_CHARTS_WXCHARTSCATEGORICALDATA_H_
 #define _WX_CHARTS_WXCHARTSCATEGORICALDATA_H_
 
-#include "dlimpexp.h"
+#include "wxchart_dlimpexp.h"
+
 #include "wxchartscategoricaldataobserver.h"
 #include "wxchartsdoubledataset.h"
 #include <wx/vector.h>

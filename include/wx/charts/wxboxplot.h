@@ -25,7 +25,8 @@
 #ifndef _WX_CHARTS_WXBOXPLOT_H_
 #define _WX_CHARTS_WXBOXPLOT_H_
 
-#include "dlimpexp.h"
+#include "wxchart_dlimpexp.h"
+
 #include "wxchart.h"
 #include "wxboxplotoptions.h"
 #include "wxchartsgrid.h"

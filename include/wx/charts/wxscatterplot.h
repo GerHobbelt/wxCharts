@@ -25,6 +25,8 @@
 #ifndef _WX_CHARTS_WXSCATTERPLOT_H_
 #define _WX_CHARTS_WXSCATTERPLOT_H_
 
+#include "wxchart_dlimpexp.h"
+
 #include "wxchart.h"
 #include "wxscatterplotoptions.h"
 #include "wxchartsgrid.h"

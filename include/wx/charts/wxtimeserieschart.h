@@ -25,6 +25,8 @@
 #ifndef _WX_CHARTS_WXTIMESERIESCHARTOPTIONS_H_
 #define _WX_CHARTS_WXTIMESERIESCHARTOPTIONS_H_
 
+#include "wxchart_dlimpexp.h"
+
 #include "wxchart.h"
 #include "wxtimeserieschartoptions.h"
 

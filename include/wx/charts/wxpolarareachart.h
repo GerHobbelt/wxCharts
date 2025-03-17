@@ -36,6 +36,8 @@
 #ifndef _WX_CHARTS_WXPOLARAREACHART_H_
 #define _WX_CHARTS_WXPOLARAREACHART_H_
 
+#include "wxchart_dlimpexp.h"
+
 #include "wxchart.h"
 #include "wxchartslicedata.h"
 #include "wxpolarareachartoptions.h"

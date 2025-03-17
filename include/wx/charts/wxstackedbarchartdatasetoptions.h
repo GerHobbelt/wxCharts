@@ -25,6 +25,8 @@
 #ifndef _WX_CHARTS_WXSTACKEDBARCHARTDATASETOPTIONS_H_
 #define _WX_CHARTS_WXSTACKEDBARCHARTDATASETOPTIONS_H_
 
+#include "wxchart_dlimpexp.h"
+
 #include "wxchartspenoptions.h"
 #include "wxchartsbrushoptions.h"
 

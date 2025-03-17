@@ -25,6 +25,8 @@
 #ifndef _WX_CHARTS_WXSTACKEDBARCHARTOPTIONS_H_
 #define _WX_CHARTS_WXSTACKEDBARCHARTOPTIONS_H_
 
+#include "wxchart_dlimpexp.h"
+
 #include "wxchartoptions.h"
 #include "wxchartsgridoptions.h"
 

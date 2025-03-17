@@ -25,7 +25,8 @@
 #ifndef _WX_CHARTS_WXBUBBLECHART_H_
 #define _WX_CHARTS_WXBUBBLECHART_H_
 
-#include "dlimpexp.h"
+#include "wxchart_dlimpexp.h"
+
 #include "wxchart.h"
 #include "wxbubblechartoptions.h"
 #include "wxchartsgrid.h"

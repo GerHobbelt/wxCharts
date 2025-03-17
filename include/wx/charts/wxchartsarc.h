@@ -36,7 +36,8 @@
 #ifndef _WX_CHARTS_WXCHARTSARC_H_
 #define _WX_CHARTS_WXCHARTSARC_H_
 
-#include "dlimpexp.h"
+#include "wxchart_dlimpexp.h"
+
 #include "wxchartselement.h"
 #include "wxchartsarcoptions.h"
 #include <wx/graphics.h>

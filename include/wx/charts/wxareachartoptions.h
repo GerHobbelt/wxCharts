@@ -25,7 +25,8 @@
 #ifndef _WX_CHARTS_WXAREACHARTOPTIONS_H_
 #define _WX_CHARTS_WXAREACHARTOPTIONS_H_
 
-#include "dlimpexp.h"
+#include "wxchart_dlimpexp.h"
+
 #include "wxchartoptions.h"
 #include "wxchartsgridoptions.h"
 #include <wx/sharedptr.h>

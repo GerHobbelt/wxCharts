@@ -25,6 +25,8 @@
 #ifndef _WX_CHARTS_WXPIECHART_H_
 #define _WX_CHARTS_WXPIECHART_H_
 
+#include "wxchart_dlimpexp.h"
+
 #include "wxdoughnutandpiechartbase.h"
 #include "wxpiechartoptions.h"
 

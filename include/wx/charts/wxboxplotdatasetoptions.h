@@ -26,6 +26,7 @@
 #define _WX_CHARTS_WXBOXPLOTDATASETOPTIONS_H_
 
 #include "wxchart_dlimpexp.h"
+
 #include <wx/colour.h>
 
 class WXDLLIMPEXP_ISHIKO_CHARTS wxBoxPlotDatasetOptions

@@ -36,7 +36,8 @@
 #ifndef _WX_CHARTS_WXCHARTSAXIS_H_
 #define _WX_CHARTS_WXCHARTSAXIS_H_
 
-#include "dlimpexp.h"
+#include "wxchart_dlimpexp.h"
+
 #include "wxchartselement.h"
 #include "wxchartsaxisoptions.h"
 #include "wxchartslabelgroup.h"
